@@ -1,0 +1,65 @@
+{
+  "format": "world-as-is/2",
+  "title": "World as is",
+  "author": "",
+  "studio_name": "",
+  "day_length_seconds": 1200,
+  "forces": [
+    {
+      "card": "gravity",
+      "template": "gravity",
+      "name": "Gravity",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    },
+    {
+      "card": "motion",
+      "template": "motion",
+      "name": "Motion",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    },
+    {
+      "card": "matter",
+      "template": "matter",
+      "name": "Matter",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    },
+    {
+      "card": "light",
+      "template": "light",
+      "name": "Light",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    },
+    {
+      "card": "sound",
+      "template": "sound",
+      "name": "Sound",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    },
+    {
+      "card": "weather",
+      "template": "weather",
+      "name": "Weather",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    },
+    {
+      "card": "time",
+      "template": "time",
+      "name": "Time",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    }
+  ]
+}

@@ -1,0 +1,1033 @@
+{
+  "things": [
+    {
+      "key": "things",
+      "label": "Things",
+      "status": "honoured",
+      "meaning": "Things are round spheres that glow. They are the balls we have currently. The balls are general things.",
+      "order": 100,
+      "source": "https://app.notion.com/3f3e76ad1e9f80748da9e1e690b42330"
+    },
+    {
+      "key": "ash",
+      "label": "Ash",
+      "status": "honoured",
+      "meaning": "Dark flakes of burnt matter.",
+      "order": 101,
+      "source": "https://app.notion.com/3f3e76ad1e9f8007b8faf06a8ecea545"
+    },
+    {
+      "key": "seeds",
+      "label": "Seeds",
+      "status": "honoured",
+      "meaning": "Seeds that float.",
+      "order": 102,
+      "source": "https://app.notion.com/3f3e76ad1e9f801dae88fb7fe77ee155"
+    },
+    {
+      "key": "books",
+      "label": "Books",
+      "status": "honoured",
+      "meaning": "Volumes of different sizes and shapes.",
+      "order": 103,
+      "source": "https://app.notion.com/3f3e76ad1e9f80279a64c20f47e2a56b"
+    },
+    {
+      "key": "snowflakes",
+      "label": "Snowflakes",
+      "status": "honoured",
+      "meaning": "Frozen water droplets with a consistency of shape.",
+      "order": 104,
+      "source": "https://app.notion.com/3f3e76ad1e9f80839f37cd72d5d5aa2c"
+    },
+    {
+      "key": "raindrops",
+      "label": "Raindrops",
+      "status": "honoured",
+      "meaning": "Water droplets with a consistency of shape.",
+      "order": 105,
+      "source": "https://app.notion.com/3f3e76ad1e9f80ef84bfddcdb0e5eae1"
+    },
+    {
+      "key": "tokens",
+      "label": "Tokens",
+      "status": "honoured",
+      "meaning": "Coins of silver and gold.",
+      "order": 106,
+      "source": "https://app.notion.com/3f3e76ad1e9f80f68a17e394bed308c6"
+    },
+    {
+      "key": "meteor",
+      "label": "Meteor",
+      "status": "honoured",
+      "meaning": "Small stones that can catch fire with speed.",
+      "order": 107,
+      "source": "https://app.notion.com/3f3e76ad1e9f809881bbea6eebeae148"
+    },
+    {
+      "key": "cloud",
+      "label": "Cloud",
+      "status": "planned",
+      "meaning": "A soft grey mass that drifts above and lets fall what it holds.",
+      "order": 108,
+      "source": "https://app.notion.com/3f3e76ad1e9f80af88aac4e1d35a343d"
+    },
+    {
+      "key": "custom",
+      "label": "Custom",
+      "status": "planned",
+      "meaning": "Make your own thing.",
+      "order": 109,
+      "source": "https://app.notion.com/3f3e76ad1e9f804b8b2adb62d07137aa"
+    }
+  ],
+  "relative quality": [
+    {
+      "key": "all",
+      "label": "All",
+      "status": "honoured",
+      "meaning": "Every thing, with no exception.",
+      "order": 200,
+      "source": "https://app.notion.com/3f3e76ad1e9f80f79b0eef0d09dd2a1f"
+    },
+    {
+      "key": "solid",
+      "label": "Solid",
+      "status": "honoured",
+      "meaning": "Keeps its own shape and meets other things at its surface.",
+      "order": 201,
+      "source": "https://app.notion.com/3f3e76ad1e9f80f098a8e7d34f8879eb"
+    },
+    {
+      "key": "liquid",
+      "label": "Liquid",
+      "status": "planned",
+      "meaning": "Holds together but takes the shape of whatever holds it.",
+      "order": 202,
+      "source": "https://app.notion.com/3f3e76ad1e9f801087d8c60b32eb370a"
+    },
+    {
+      "key": "vaporous",
+      "label": "Vaporous",
+      "status": "planned",
+      "meaning": "Spreads out and has no surface of its own.",
+      "order": 203,
+      "source": "https://app.notion.com/3f3e76ad1e9f8045aee1d1c45de58795"
+    },
+    {
+      "key": "heavier",
+      "label": "Heavier",
+      "status": "honoured",
+      "meaning": "Weighs more than the things around it.",
+      "order": 204,
+      "source": "https://app.notion.com/3f3e76ad1e9f80b9b3eadc0e841f6838"
+    },
+    {
+      "key": "lighter",
+      "label": "Lighter",
+      "status": "honoured",
+      "meaning": "Weighs less than the things around it.",
+      "order": 205,
+      "source": "https://app.notion.com/3f3e76ad1e9f80968ba5fb023cd09f0d"
+    },
+    {
+      "key": "bigger",
+      "label": "Bigger",
+      "status": "honoured",
+      "meaning": "Larger than the things around it.",
+      "order": 206,
+      "source": "https://app.notion.com/3f3e76ad1e9f80f890c1eaeb788e6e30"
+    },
+    {
+      "key": "smaller",
+      "label": "Smaller",
+      "status": "honoured",
+      "meaning": "Smaller than the things around it.",
+      "order": 207,
+      "source": "https://app.notion.com/3f3e76ad1e9f8088b1f2d82e8b9a38ac"
+    },
+    {
+      "key": "faster",
+      "label": "Faster",
+      "status": "honoured",
+      "meaning": "Moving quicker than the things around it.",
+      "order": 208,
+      "source": "https://app.notion.com/3f3e76ad1e9f809bb1dcfb21b354d97c"
+    },
+    {
+      "key": "slower",
+      "label": "Slower",
+      "status": "honoured",
+      "meaning": "Moving less quickly than the things around it.",
+      "order": 209,
+      "source": "https://app.notion.com/3f3e76ad1e9f809eb074eb69717f3c27"
+    },
+    {
+      "key": "mobile",
+      "label": "Mobile",
+      "status": "honoured",
+      "meaning": "Able to change place.",
+      "order": 210,
+      "source": "https://app.notion.com/3f3e76ad1e9f8013bf99cda8f7142612"
+    },
+    {
+      "key": "immobile",
+      "label": "Immobile",
+      "status": "honoured",
+      "meaning": "Fixed in place; nothing moves it.",
+      "order": 211,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c9bbc8c1400a47aa56"
+    },
+    {
+      "key": "alive",
+      "label": "Alive",
+      "status": "planned",
+      "meaning": "Supplies force of its own; moves without being moved.",
+      "order": 212,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c5b52bd0d9aab79b57"
+    },
+    {
+      "key": "dead",
+      "label": "Dead",
+      "status": "planned",
+      "meaning": "Supplies no force of its own; moves only when moved.",
+      "order": 213,
+      "source": "https://app.notion.com/3f3e76ad1e9f8022a487e4147e1de695"
+    },
+    {
+      "key": "visible",
+      "label": "Visible",
+      "status": "honoured",
+      "meaning": "Can be seen.",
+      "order": 214,
+      "source": "https://app.notion.com/3f3e76ad1e9f806b8feddff0fa8ea569"
+    },
+    {
+      "key": "invisible",
+      "label": "Invisible",
+      "status": "honoured",
+      "meaning": "Cannot be seen.",
+      "order": 215,
+      "source": "https://app.notion.com/3f3e76ad1e9f8001b74dc9c1409535d3"
+    },
+    {
+      "key": "glowing",
+      "label": "Glowing",
+      "status": "honoured",
+      "meaning": "Gives off light of its own.",
+      "order": 216,
+      "source": "https://app.notion.com/3f3e76ad1e9f80a8afa7fb7e3f2b8021"
+    },
+    {
+      "key": "shaded",
+      "label": "Shaded",
+      "status": "honoured",
+      "meaning": "Out of the light; something stands between it and the sun.",
+      "order": 217,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c58a0be5ccd44958f1"
+    },
+    {
+      "key": "loud",
+      "label": "Loud",
+      "status": "honoured",
+      "meaning": "Makes more sound than the things around it.",
+      "order": 218,
+      "source": "https://app.notion.com/3f3e76ad1e9f80f7a520c64815f8fbbe"
+    },
+    {
+      "key": "quiet",
+      "label": "Quiet",
+      "status": "honoured",
+      "meaning": "Makes less sound than the things around it.",
+      "order": 219,
+      "source": "https://app.notion.com/3f3e76ad1e9f80b1a1ccd3a23e67eb47"
+    },
+    {
+      "key": "round",
+      "label": "Round",
+      "status": "honoured",
+      "meaning": "Curved all over, with no corners.",
+      "order": 220,
+      "source": "https://app.notion.com/3f3e76ad1e9f808298e9fdbab7c70946"
+    },
+    {
+      "key": "angled",
+      "label": "Angled",
+      "status": "planned",
+      "meaning": "Has corners and flat faces.",
+      "order": 221,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c5bd31d11d2878c440"
+    }
+  ],
+  "relative location": [
+    {
+      "key": "above",
+      "label": "Above",
+      "status": "honoured",
+      "meaning": "Higher than the thing it is measured from.",
+      "order": 300,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c3baafe0ed8ece5d96"
+    },
+    {
+      "key": "below",
+      "label": "Below",
+      "status": "honoured",
+      "meaning": "Lower than the thing it is measured from.",
+      "order": 301,
+      "source": "https://app.notion.com/3f3e76ad1e9f80f6a7c1f84f9185af9b"
+    },
+    {
+      "key": "nearby",
+      "label": "Nearby",
+      "status": "honoured",
+      "meaning": "Within a few steps of the listener.",
+      "order": 302,
+      "source": "https://app.notion.com/3f3e76ad1e9f80318f0ec3b46e609cc0"
+    },
+    {
+      "key": "far_away",
+      "label": "Far away",
+      "status": "honoured",
+      "meaning": "Many steps from the listener; out toward the edge.",
+      "order": 303,
+      "source": "https://app.notion.com/3f3e76ad1e9f80f3a0daf3c26abce6d0"
+    },
+    {
+      "key": "in_sight",
+      "label": "In sight",
+      "status": "planned",
+      "meaning": "Where the listener can see it, with nothing in the way.",
+      "order": 304,
+      "source": "https://app.notion.com/3f3e76ad1e9f80ecbd0af437abf052ee"
+    },
+    {
+      "key": "in_earshot",
+      "label": "In earshot",
+      "status": "honoured",
+      "meaning": "Close enough for the listener to hear it.",
+      "order": 305,
+      "source": "https://app.notion.com/3f3e76ad1e9f80368c48eae6fab9d6c0"
+    },
+    {
+      "key": "forward",
+      "label": "Forward",
+      "status": "honoured",
+      "meaning": "Ahead, the way the listener is facing. For Time: later.",
+      "order": 306,
+      "source": "https://app.notion.com/3f3e76ad1e9f804ca567f7e2dd593fb6"
+    },
+    {
+      "key": "behind",
+      "label": "Behind",
+      "status": "honoured",
+      "meaning": "At the listener's back. For Time: earlier.",
+      "order": 307,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c2a42df742c98cbcdf"
+    },
+    {
+      "key": "left",
+      "label": "Left",
+      "status": "honoured",
+      "meaning": "To the listener's left.",
+      "order": 308,
+      "source": "https://app.notion.com/3f3e76ad1e9f803b8af5d6734521c534"
+    },
+    {
+      "key": "right",
+      "label": "Right",
+      "status": "honoured",
+      "meaning": "To the listener's right.",
+      "order": 309,
+      "source": "https://app.notion.com/3f3e76ad1e9f805aa3dff88c48355e40"
+    }
+  ],
+  "verb": [
+    {
+      "key": "move",
+      "label": "Move",
+      "status": "honoured",
+      "meaning": "Changes place.",
+      "order": 400,
+      "source": "https://app.notion.com/3f3e76ad1e9f8011bec7ea0dc4750a93"
+    },
+    {
+      "key": "stay",
+      "label": "Stay",
+      "status": "honoured",
+      "meaning": "Keeps its place.",
+      "order": 401,
+      "source": "https://app.notion.com/3f3e76ad1e9f8027ad88e61da0fcfe88"
+    },
+    {
+      "key": "fall",
+      "label": "Fall",
+      "status": "honoured",
+      "meaning": "Moves downward. For the sun: sets. For Time: runs backward.",
+      "order": 402,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c4be43cebe5694bb83"
+    },
+    {
+      "key": "rise",
+      "label": "Rise",
+      "status": "honoured",
+      "meaning": "Moves upward. For the sun: comes up.",
+      "order": 403,
+      "source": "https://app.notion.com/3f3e76ad1e9f808caca1f835f130adca"
+    },
+    {
+      "key": "expand",
+      "label": "Expand",
+      "status": "honoured",
+      "meaning": "Grows larger.",
+      "order": 404,
+      "source": "https://app.notion.com/3f3e76ad1e9f807eb8f8c1447704e979"
+    },
+    {
+      "key": "contract",
+      "label": "Contract",
+      "status": "honoured",
+      "meaning": "Grows smaller.",
+      "order": 405,
+      "source": "https://app.notion.com/3f3e76ad1e9f806192f7d4ecee13e514"
+    },
+    {
+      "key": "give",
+      "label": "Give",
+      "status": "planned",
+      "meaning": "Passes something of its own to other things.",
+      "order": 406,
+      "source": "https://app.notion.com/3f3e76ad1e9f807389a3fbdb477c234e"
+    },
+    {
+      "key": "take",
+      "label": "Take",
+      "status": "planned",
+      "meaning": "Draws something from other things into itself.",
+      "order": 407,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c1a91bf8f8c5be7bc5"
+    },
+    {
+      "key": "change_state",
+      "label": "Change State",
+      "status": "planned",
+      "meaning": "Becomes solid, liquid or vaporous.",
+      "order": 408,
+      "source": "https://app.notion.com/3f3e76ad1e9f8071bde8edac5cb80050"
+    },
+    {
+      "key": "shapeshift",
+      "label": "Shapeshift",
+      "status": "planned",
+      "meaning": "Takes another shape.",
+      "order": 409,
+      "source": "https://app.notion.com/3f3e76ad1e9f8018b7a4cb52c5969070"
+    }
+  ],
+  "vector": [
+    {
+      "key": "straight",
+      "label": "Straight",
+      "status": "honoured",
+      "meaning": "Shortest possible distance between A and B.",
+      "order": 500,
+      "source": "https://app.notion.com/3f3e76ad1e9f807a8dfad92e2130bf77"
+    },
+    {
+      "key": "zig_zag",
+      "label": "Zig Zag",
+      "status": "honoured",
+      "meaning": "Jagged zig zag pattern with hard angles.",
+      "order": 501,
+      "source": "https://app.notion.com/3f3e76ad1e9f801c91aaefcb272e74e0"
+    },
+    {
+      "key": "wave",
+      "label": "Wave",
+      "status": "honoured",
+      "meaning": "Zig Zag but with rounded angles.",
+      "order": 502,
+      "source": "https://app.notion.com/3f3e76ad1e9f801fae0fce4722e27da0"
+    },
+    {
+      "key": "random",
+      "label": "Random",
+      "status": "honoured",
+      "meaning": "Random walk, no discernable direction.",
+      "order": 503,
+      "source": "https://app.notion.com/3f3e76ad1e9f8071af01e18bb9936e4e"
+    },
+    {
+      "key": "custom",
+      "label": "Custom",
+      "status": "planned",
+      "meaning": "Create a custom vector.",
+      "order": 504,
+      "source": "https://app.notion.com/3f3e76ad1e9f80ee9ab8d5adc3c4a835"
+    }
+  ],
+  "pattern": [
+    {
+      "key": "consistent",
+      "label": "Consistent",
+      "status": "honoured",
+      "meaning": "As time passes, a quality maintains its value.",
+      "order": 600,
+      "source": "https://app.notion.com/3f3e76ad1e9f800bae74c8b93fd2af6e"
+    },
+    {
+      "key": "increasing",
+      "label": "Increasing",
+      "status": "honoured",
+      "meaning": "As time passes, a quality increases its value.",
+      "order": 601,
+      "source": "https://app.notion.com/3f3e76ad1e9f80568addcaa4ada9ab7e"
+    },
+    {
+      "key": "decreasing",
+      "label": "Decreasing",
+      "status": "honoured",
+      "meaning": "As time passes, a quality decreases its value.",
+      "order": 602,
+      "source": "https://app.notion.com/3f3e76ad1e9f803d8d6cc287658ed35f"
+    },
+    {
+      "key": "random",
+      "label": "Random",
+      "status": "honoured",
+      "meaning": "As time passes, a quality changes randomly.",
+      "order": 603,
+      "source": "https://app.notion.com/3f3e76ad1e9f80248c85c0ebaf5c0897"
+    },
+    {
+      "key": "custom",
+      "label": "Custom",
+      "status": "planned",
+      "meaning": "Create a custom pattern.",
+      "order": 604,
+      "source": "https://app.notion.com/3f3e76ad1e9f80ffaaffecab109fb8d7"
+    }
+  ],
+  "quality": [
+    {
+      "key": "speed",
+      "label": "Speed",
+      "status": "honoured",
+      "meaning": "How fast or slow something goes.",
+      "order": 700,
+      "source": "https://app.notion.com/3f3e76ad1e9f80729779f05907a7440a"
+    },
+    {
+      "key": "weight",
+      "label": "Weight",
+      "status": "honoured",
+      "meaning": "How heavy it is.",
+      "order": 701,
+      "source": "https://app.notion.com/3f3e76ad1e9f8051a6e9f1be01215584"
+    },
+    {
+      "key": "size",
+      "label": "Size",
+      "status": "honoured",
+      "meaning": "How big or small it is.",
+      "order": 702,
+      "source": "https://app.notion.com/3f3e76ad1e9f8041ba5eed5c09dd4a3a"
+    },
+    {
+      "key": "sonority",
+      "label": "Sonority",
+      "status": "honoured",
+      "meaning": "How loud or quiet it is.",
+      "order": 703,
+      "source": "https://app.notion.com/3f3e76ad1e9f8006b7cfc14dbb47d508"
+    },
+    {
+      "key": "visibility",
+      "label": "Visibility",
+      "status": "honoured",
+      "meaning": "How much it can be seen.",
+      "order": 704,
+      "source": "https://app.notion.com/3f3e76ad1e9f8076a535c1972ed794e3"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness",
+      "status": "honoured",
+      "meaning": "How much light it gives off.",
+      "order": 705,
+      "source": "https://app.notion.com/3f3e76ad1e9f8087a780f9c59c1c25eb"
+    },
+    {
+      "key": "mobility",
+      "label": "Mobility",
+      "status": "honoured",
+      "meaning": "Capability to travel.",
+      "order": 706,
+      "source": "https://app.notion.com/3f3e76ad1e9f80dd86e5f2d5dcec833d"
+    },
+    {
+      "key": "liveliness",
+      "label": "Liveliness",
+      "status": "planned",
+      "meaning": "Force that it supplies or demands.",
+      "order": 707,
+      "source": "https://app.notion.com/3f3e76ad1e9f80a1ad35f001dc8fa06f"
+    },
+    {
+      "key": "density",
+      "label": "Density",
+      "status": "planned",
+      "meaning": "How much it is a solid or a gas.",
+      "order": 708,
+      "source": "https://app.notion.com/3f3e76ad1e9f808a8610ca887d319445"
+    },
+    {
+      "key": "shape",
+      "label": "Shape",
+      "status": "planned",
+      "meaning": "The way it coheres as a form.",
+      "order": 709,
+      "source": "https://app.notion.com/3f3e76ad1e9f80d1ad9cd70b1c2e18e5"
+    }
+  ],
+  "mover": [
+    {
+      "key": "contact",
+      "label": "Contact",
+      "status": "honoured",
+      "meaning": "A touch or strike from another thing.",
+      "order": 800,
+      "source": "https://app.notion.com/3f3e76ad1e9f8005a160cbbf98ae5e8a"
+    },
+    {
+      "key": "gravity",
+      "label": "Gravity",
+      "status": "honoured",
+      "meaning": "The steady pull toward the ground.",
+      "order": 801,
+      "source": "https://app.notion.com/3f3e76ad1e9f805a97dae2d521e398a1"
+    },
+    {
+      "key": "wind",
+      "label": "Wind",
+      "status": "honoured",
+      "meaning": "A push from moving air.",
+      "order": 802,
+      "source": "https://app.notion.com/3f3e76ad1e9f80d3a95ac4bd5d816f22"
+    },
+    {
+      "key": "water",
+      "label": "Water",
+      "status": "planned",
+      "meaning": "A push from falling or flowing water.",
+      "order": 803,
+      "source": "https://app.notion.com/3f3e76ad1e9f80b3b318c7dbe8734f0f"
+    },
+    {
+      "key": "magnetism",
+      "label": "Magnetism",
+      "status": "planned",
+      "meaning": "A pull or push between things at a distance, without touching.",
+      "order": 804,
+      "source": "https://app.notion.com/3f3e76ad1e9f80cc9170d81c35bc1059"
+    },
+    {
+      "key": "heat",
+      "label": "Heat",
+      "status": "planned",
+      "meaning": "Warmth from the sun or from a glowing thing; warm things stir.",
+      "order": 805,
+      "source": "https://app.notion.com/3f3e76ad1e9f80a0ac1cf4defa3445af"
+    },
+    {
+      "key": "vibration",
+      "label": "Vibration",
+      "status": "planned",
+      "meaning": "The shake of a sound passing through.",
+      "order": 806,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c08200d058fa123489"
+    },
+    {
+      "key": "light",
+      "label": "Light",
+      "status": "planned",
+      "meaning": "The faint press of sunlight on what it falls on.",
+      "order": 807,
+      "source": "https://app.notion.com/3f3e76ad1e9f80969ff7c7db21246082"
+    },
+    {
+      "key": "life",
+      "label": "Life",
+      "status": "planned",
+      "meaning": "A thing's own will to move.",
+      "order": 808,
+      "source": "https://app.notion.com/3f3e76ad1e9f80808aeec984ad1073f1"
+    },
+    {
+      "key": "random",
+      "label": "Random",
+      "status": "honoured",
+      "meaning": "No visible cause; a nudge from nowhere, now and then.",
+      "order": 809,
+      "source": "https://app.notion.com/3f3e76ad1e9f8000beefcaa2bb906202"
+    }
+  ],
+  "meeting": [
+    {
+      "key": "collide",
+      "label": "Collide",
+      "status": "honoured",
+      "meaning": "Bounce apart; neither passes through the other.",
+      "order": 900,
+      "source": "https://app.notion.com/3f3e76ad1e9f80ba9276d1e32bcb9f3e"
+    },
+    {
+      "key": "fuse",
+      "label": "Fuse",
+      "status": "honoured",
+      "meaning": "Join into one larger thing.",
+      "order": 901,
+      "source": "https://app.notion.com/3f3e76ad1e9f809e841ad09b9a94d142"
+    },
+    {
+      "key": "mix",
+      "label": "Mix",
+      "status": "honoured",
+      "meaning": "Pass into one another and spread; neither keeps a surface.",
+      "order": 902,
+      "source": "https://app.notion.com/3f3e76ad1e9f81eda0b7fea1905e30ff"
+    },
+    {
+      "key": "overlap",
+      "label": "Overlap",
+      "status": "honoured",
+      "meaning": "Pass through one another, unchanged.",
+      "order": 903,
+      "source": "https://app.notion.com/3f3e76ad1e9f80a5b256d35d60db1fea"
+    },
+    {
+      "key": "stack",
+      "label": "Stack",
+      "status": "honoured",
+      "meaning": "Come to rest on one another and stay.",
+      "order": 904,
+      "source": "https://app.notion.com/3f3e76ad1e9f8010a562e040a25c947a"
+    },
+    {
+      "key": "attract",
+      "label": "Attract",
+      "status": "honoured",
+      "meaning": "Draw closer and cling after meeting.",
+      "order": 905,
+      "source": "https://app.notion.com/3f3e76ad1e9f800bbd19ff284a886062"
+    },
+    {
+      "key": "repel",
+      "label": "Repel",
+      "status": "honoured",
+      "meaning": "Push apart harder than they arrived.",
+      "order": 906,
+      "source": "https://app.notion.com/3f3e76ad1e9f806d9cc6d7c6e2059a98"
+    },
+    {
+      "key": "grow",
+      "label": "Grow",
+      "status": "honoured",
+      "meaning": "Each gets a little bigger on contact.",
+      "order": 907,
+      "source": "https://app.notion.com/3f3e76ad1e9f803697f6d7a821774f43"
+    },
+    {
+      "key": "shrink",
+      "label": "Shrink",
+      "status": "honoured",
+      "meaning": "Each gets a little smaller on contact.",
+      "order": 908,
+      "source": "https://app.notion.com/3f3e76ad1e9f80bf88eec4b1e103645a"
+    },
+    {
+      "key": "melt",
+      "label": "Melt",
+      "status": "planned",
+      "meaning": "Turn from solid to liquid where they touch.",
+      "order": 909,
+      "source": "https://app.notion.com/3f3e76ad1e9f80c6906df525f92bc766"
+    },
+    {
+      "key": "random",
+      "label": "Random",
+      "status": "honoured",
+      "meaning": "One of the other meetings, chosen afresh each time.",
+      "order": 910,
+      "source": "https://app.notion.com/3f3e76ad1e9f807cafafebbf40c3f42f"
+    }
+  ],
+  "colour": [
+    {
+      "key": "white",
+      "label": "no colour",
+      "status": "honoured",
+      "meaning": "Plain daylight.",
+      "order": 1401,
+      "source": "https://app.notion.com/3f2e76ad1e9f81458690dc54651b3dd0"
+    },
+    {
+      "key": "white_bright",
+      "label": "white",
+      "status": "honoured",
+      "meaning": "Hard white.",
+      "order": 1402,
+      "source": "https://app.notion.com/3f2e76ad1e9f81719866d731f06f8a6b"
+    },
+    {
+      "key": "gold",
+      "label": "gold",
+      "status": "honoured",
+      "meaning": "Late-afternoon light all day.",
+      "order": 1403,
+      "source": "https://app.notion.com/3f2e76ad1e9f818b93e8d33a6128a355"
+    },
+    {
+      "key": "red",
+      "label": "red",
+      "status": "honoured",
+      "meaning": "",
+      "order": 1404,
+      "source": "https://app.notion.com/3f2e76ad1e9f81c284c8c36b1549862d"
+    },
+    {
+      "key": "blue",
+      "label": "blue",
+      "status": "honoured",
+      "meaning": "",
+      "order": 1405,
+      "source": "https://app.notion.com/3f2e76ad1e9f8127bb7fefa5975022c1"
+    },
+    {
+      "key": "green",
+      "label": "green",
+      "status": "honoured",
+      "meaning": "",
+      "order": 1406,
+      "source": "https://app.notion.com/3f2e76ad1e9f81ada9c4ef2eb448fd23"
+    },
+    {
+      "key": "violet",
+      "label": "violet",
+      "status": "honoured",
+      "meaning": "",
+      "order": 1407,
+      "source": "https://app.notion.com/3f2e76ad1e9f81839a2ff2e4c60f630b"
+    },
+    {
+      "key": "black",
+      "label": "black",
+      "status": "honoured",
+      "meaning": "Daylight that gives no light.",
+      "order": 1408,
+      "source": "https://app.notion.com/3f2e76ad1e9f81a58e0cdeb3804a019e"
+    },
+    {
+      "key": "sky",
+      "label": "the colour of the sky",
+      "status": "honoured",
+      "meaning": "Whatever the sky is now.",
+      "order": 1409,
+      "source": "https://app.notion.com/3f2e76ad1e9f8189b1e5d330cc1682b4"
+    },
+    {
+      "key": "last_struck",
+      "label": "the colour of the last struck body",
+      "status": "honoured",
+      "meaning": "The world takes the colour of the last collision.",
+      "order": 1410,
+      "source": "https://app.notion.com/3f2e76ad1e9f812b88fefcb6a765c8aa"
+    }
+  ],
+  "name": [
+    {
+      "key": "free_text",
+      "label": "a name",
+      "status": "honoured",
+      "meaning": "The one open slot in the book. Students type it.",
+      "order": 1701,
+      "source": "https://app.notion.com/3f2e76ad1e9f815bbab1d13be6283050"
+    }
+  ],
+  "hour": [
+    {
+      "key": "00",
+      "label": "00",
+      "status": "honoured",
+      "meaning": "00:00 in the condition’s repeating 24-hour day.",
+      "order": 0
+    },
+    {
+      "key": "01",
+      "label": "01",
+      "status": "honoured",
+      "meaning": "01:00 in the condition’s repeating 24-hour day.",
+      "order": 1
+    },
+    {
+      "key": "02",
+      "label": "02",
+      "status": "honoured",
+      "meaning": "02:00 in the condition’s repeating 24-hour day.",
+      "order": 2
+    },
+    {
+      "key": "03",
+      "label": "03",
+      "status": "honoured",
+      "meaning": "03:00 in the condition’s repeating 24-hour day.",
+      "order": 3
+    },
+    {
+      "key": "04",
+      "label": "04",
+      "status": "honoured",
+      "meaning": "04:00 in the condition’s repeating 24-hour day.",
+      "order": 4
+    },
+    {
+      "key": "05",
+      "label": "05",
+      "status": "honoured",
+      "meaning": "05:00 in the condition’s repeating 24-hour day.",
+      "order": 5
+    },
+    {
+      "key": "06",
+      "label": "06",
+      "status": "honoured",
+      "meaning": "06:00 in the condition’s repeating 24-hour day.",
+      "order": 6
+    },
+    {
+      "key": "07",
+      "label": "07",
+      "status": "honoured",
+      "meaning": "07:00 in the condition’s repeating 24-hour day.",
+      "order": 7
+    },
+    {
+      "key": "08",
+      "label": "08",
+      "status": "honoured",
+      "meaning": "08:00 in the condition’s repeating 24-hour day.",
+      "order": 8
+    },
+    {
+      "key": "09",
+      "label": "09",
+      "status": "honoured",
+      "meaning": "09:00 in the condition’s repeating 24-hour day.",
+      "order": 9
+    },
+    {
+      "key": "10",
+      "label": "10",
+      "status": "honoured",
+      "meaning": "10:00 in the condition’s repeating 24-hour day.",
+      "order": 10
+    },
+    {
+      "key": "11",
+      "label": "11",
+      "status": "honoured",
+      "meaning": "11:00 in the condition’s repeating 24-hour day.",
+      "order": 11
+    },
+    {
+      "key": "12",
+      "label": "12",
+      "status": "honoured",
+      "meaning": "12:00 in the condition’s repeating 24-hour day.",
+      "order": 12
+    },
+    {
+      "key": "13",
+      "label": "13",
+      "status": "honoured",
+      "meaning": "13:00 in the condition’s repeating 24-hour day.",
+      "order": 13
+    },
+    {
+      "key": "14",
+      "label": "14",
+      "status": "honoured",
+      "meaning": "14:00 in the condition’s repeating 24-hour day.",
+      "order": 14
+    },
+    {
+      "key": "15",
+      "label": "15",
+      "status": "honoured",
+      "meaning": "15:00 in the condition’s repeating 24-hour day.",
+      "order": 15
+    },
+    {
+      "key": "16",
+      "label": "16",
+      "status": "honoured",
+      "meaning": "16:00 in the condition’s repeating 24-hour day.",
+      "order": 16
+    },
+    {
+      "key": "17",
+      "label": "17",
+      "status": "honoured",
+      "meaning": "17:00 in the condition’s repeating 24-hour day.",
+      "order": 17
+    },
+    {
+      "key": "18",
+      "label": "18",
+      "status": "honoured",
+      "meaning": "18:00 in the condition’s repeating 24-hour day.",
+      "order": 18
+    },
+    {
+      "key": "19",
+      "label": "19",
+      "status": "honoured",
+      "meaning": "19:00 in the condition’s repeating 24-hour day.",
+      "order": 19
+    },
+    {
+      "key": "20",
+      "label": "20",
+      "status": "honoured",
+      "meaning": "20:00 in the condition’s repeating 24-hour day.",
+      "order": 20
+    },
+    {
+      "key": "21",
+      "label": "21",
+      "status": "honoured",
+      "meaning": "21:00 in the condition’s repeating 24-hour day.",
+      "order": 21
+    },
+    {
+      "key": "22",
+      "label": "22",
+      "status": "honoured",
+      "meaning": "22:00 in the condition’s repeating 24-hour day.",
+      "order": 22
+    },
+    {
+      "key": "23",
+      "label": "23",
+      "status": "honoured",
+      "meaning": "23:00 in the condition’s repeating 24-hour day.",
+      "order": 23
+    },
+    {
+      "key": "24",
+      "label": "24",
+      "status": "honoured",
+      "meaning": "Midnight; the same moment as 00.",
+      "order": 24
+    }
+  ]
+}

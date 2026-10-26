@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[ext_resource type="AudioStream" path="res://sounds/atmosphere.wav" id="1_58kjy"]
+[ext_resource type="Script" path="res://shared/sound_spot.gd" id="2_jgeas"]
+
+[node name="SoundSpot" type="AudioStreamPlayer3D" unique_id=209224914]
+stream = ExtResource("1_58kjy")
+volume_db = -24.0
+unit_size = 2.0
+max_distance = 14.0
+script = ExtResource("2_jgeas")

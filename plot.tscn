@@ -1,0 +1,215 @@
+[gd_scene format=3 uid="uid://baj0d3fy8iawx"]
+
+[ext_resource type="Script" uid="uid://dbmp32c456hpr" path="res://condition.gd" id="1_ihtym"]
+[ext_resource type="MeshLibrary" uid="uid://d2do7fxnpjblk" path="res://shared/tiles.tres" id="2_gfihf"]
+[ext_resource type="Script" uid="uid://c8upk5j8fr3vu" path="res://shared/build_grid.gd" id="3_wtorr"]
+[ext_resource type="Script" uid="uid://cwi5yw110kfup" path="res://shared/dunes.gd" id="4_w5f48"]
+[ext_resource type="PackedScene" path="res://wheel.tscn" id="7_a0env"]
+[ext_resource type="Script" uid="uid://cqr42x21osnol" path="res://shared/force_controls.gd" id="8_dbdy4"]
+[ext_resource type="Script" uid="uid://ccs4u86b6seb3" path="res://shared/forces.gd" id="9_mty6o"]
+[ext_resource type="Shader" uid="uid://fofbl3pbc464" path="res://shared/sky.gdshader" id="13_enepy"]
+[ext_resource type="Script" uid="uid://cixcrqiyqppkk" path="res://shared/goal_marker.gd" id="14_45710"]
+[ext_resource type="PackedScene" path="res://pieces/note.tscn" id="15_ljdop"]
+[ext_resource type="Script" uid="uid://c3ia3fqmj6xh3" path="res://shared/beacon.gd" id="17_w6tio"]
+
+[sub_resource type="Curve3D" id="Curve3D_y168n"]
+bake_interval = 2.0
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -6.65, -3.5, 0, 0, 0, 0, 0, 0, 0, 25.55, -3.5, -0.7, 0, 0, 0, 0, 0, 0, 78.05, -3.5, -2.1, 0, 0, 0, 0, 0, 0, 134.05, -3.5, 2.8, 0, 0, 0, 0, 0, 0, 199.15, -3.5, 0),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_mv24a"]
+bounce = 0.35
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fykhl"]
+shader = ExtResource("13_enepy")
+shader_parameter/sun_direction = Vector3(0, 1, 0)
+shader_parameter/rise_direction = Vector3(-1, 0, 0)
+shader_parameter/night_colour = Vector3(0.035, 0.06, 0.13)
+shader_parameter/day_colour = Vector3(0.35, 0.42, 0.55)
+shader_parameter/day_energy = 1.0
+shader_parameter/predawn = 0.0
+shader_parameter/disc_scale = 1.0
+shader_parameter/disc_visible = true
+
+[sub_resource type="Sky" id="Sky_ghdq3"]
+sky_material = SubResource("ShaderMaterial_fykhl")
+
+[sub_resource type="Environment" id="Environment_ruvnh"]
+background_mode = 2
+sky = SubResource("Sky_ghdq3")
+ambient_light_source = 2
+ambient_light_color = Color(0.84705883, 0.8627451, 0.8980392, 1)
+ambient_light_energy = 0.85
+tonemap_mode = 2
+
+[node name="Plot" type="Node3D" unique_id=842926486]
+script = ExtResource("1_ihtym")
+
+[node name="Terrain" type="GridMap" parent="." unique_id=586571513]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, -0.5)
+mesh_library = ExtResource("2_gfihf")
+cell_size = Vector3(1, 1, 1)
+cell_center_y = false
+data = {
+"cells": PackedInt32Array(65535, 65535, 0, 65535, 0, 0, 65535, 1, 0, 0, 65535, 0, 0, 0, 0, 0, 1, 0, 1, 65535, 0, 1, 0, 0, 1, 1, 0, 167, 65535, 0, 167, 0, 0, 167, 1, 0, 168, 65535, 0, 168, 0, 0, 168, 1, 0, 169, 65535, 0, 169, 0, 0, 169, 1, 0, 0, 65534, 0, 0, 65533, 0, 1, 65533, 0, 1, 65534, 0, 65535, 65534, 7, 65535, 65533, 655362, 65534, 65533, 655361, 65534, 65532, 655361, 65535, 65532, 655361, 65535, 65531, 655361, 65535, 65530, 655361, 0, 65531, 655362, -65535, 65531, 655362, -65536, 65531, 655361, -1, 65531, 655361, -1, 65530, 655361, -1, 65532, 655361, -2, 65532, 655361, -2, 65533, 655361, -1, 65533, 655361, -131070, 65531, 655362, -131071, 65531, 655361, -131072, 65531, 655361, -65537, 65531, 655361, -65537, 65530, 655361, -65537, 65532, 655361, -65538, 65532, 655361, -65537, 65533, 655361, -65538, 65533, 655361, -131071, 65530, 655367, -131071, 65528, 655367, 0, 65529, 655362, -65536, 65529, 655361, -65535, 65529, 655361, -65534, 65529, 655360, -65533, 65530, 655363, -65533, 65529, 655361, -65534, 65530, 655361, -65536, 65532, 655364, -65535, 65532, 655364, -65534, 65532, 655364, -65533, 65532, 655364, -65534, 65531, 655364, -65533, 65531, 655364, -65535, 65533, 655364, -65534, 65533, 655364, -65533, 65533, 655364, -65533, 65534, 655361, -65534, 65534, 655361, -65535, 65534, 655364, -65535, 65535, 655364, -65536, 65535, 655364, -65535, 0, 655364, -65534, 0, 655364, -65533, 0, 655364, -65533, 65535, 655364, -65534, 65535, 655364, -65534, 1, 655364, -65534, 2, 655364, -65535, 2, 655364, -65536, 2, 655364, -1, 2, 655364, -1, 1, 655364, -65536, 1, 655364, -65535, 1, 655364, -65533, 1, 655364, -2, 1, 655364, -3, 0, 655364, -3, 65535, 655364, -4, 65535, 655364, -2, 65535, 655364, -1, 65535, 655364, -1, 65534, 655364, -65536, 65534, 655364, -2, 65534, 655364, -3, 65534, 655364, -2, 0, 655364, -2, 2, 655364, -65536, 3, 655364, -1, 3, 655364, -2, 3, 655364, -3, 3, 655364, -3, 2, 655364, -4, 2, 655364, -4, 1, 655364, -3, 1, 655364, -1, 0, 655364, -65536, 0, 655364, -4, 0, 655364, -3, 65533, 655364, -4, 65533, 655364, -65535, 3, 655364, 3, 65529, 655368, 2, 65530, 655368, 4, 65529, 655363, -65534, 65528, 655360, -65533, 65528, 655360, -65532, 65528, 655360, -65531, 65528, 655360, -65531, 65529, 655360, -65530, 65529, 655360, -65530, 65530, 655360, -65530, 65531, 655360, -65530, 65532, 655360, -65531, 65532, 655360, -65532, 65534, 655362, 3, 65534, 655362, 2, 65534, 655361, -65531, 65533, 655360, -65531, 65534, 655360, -65530, 65533, 655360, -65531, 65531, 655367, -65531, 65527, 655360, -65530, 65527, 655360, -65529, 65527, 655360, -65528, 65527, 655360, -65527, 65527, 655360, -65526, 65527, 655360, -65527, 65528, 655360, -65526, 65528, 655360, -65525, 65528, 655360, -65524, 65529, 655360, -65524, 65530, 655360, -65524, 65531, 655360, -65524, 65532, 655360, -65524, 65528, 655360, 10, 65528, 655368, -65526, 65526, 655368, -65525, 65531, 655369, -65527, 65526, 655363, -65525, 65527, 655363, -65525, 65529, 655363, -65526, 65529, 655367, -65523, 65529, 655363, -65523, 65532, 655363, -65525, 65533, 655363, -65523, 65530, 655369, -65527, 65529, 655369, -65524, 65533, 655360, -65523, 65533, 655360, -65522, 65533, 655360, -65521, 65533, 655360, -65521, 65534, 655360, -65520, 65534, 655360, -65519, 65534, 655360, -65518, 65534, 655360, -65517, 65534, 655360, -65516, 65534, 655360, -65515, 65534, 655360, -65515, 65535, 1441794, -65515, 0, 1441793, -65514, 0, 1441793, -65513, 0, 1441793, -65512, 0, 1441793, 24, 0, 1441799, 24, 1, 1441795, 23, 1, 1441795, 22, 1, 1441795, 21, 1, 1441795, 20, 1, 1441795, 20, 0, 1441795, 20, 65535, 1441795, -65516, 65535, 1441795, 25, 0, 1441792, 26, 0, 1441792, 27, 0, 1441794, 65563, 1, 1441792, 65563, 2, 1441792, 65564, 2, 1441792, 65565, 2, 1441792, 65565, 3, 1441792, 65566, 3, 1441792, 65567, 3, 1441792, 65567, 2, 1441792, 65568, 2, 1441792, 65569, 1, 1441792, 65569, 0, 1441792, 65568, 0, 1441792, 65568, 65535, 1441792, 26, 65535, 1441792, 27, 65535, 1441792, 28, 0, 1441801, 31, 0, 1441801, 32, 1, 1441792, 33, 2, 1441792, 33, 3, 1441792, 32, 3, 1441792, 31, 3, 1441792, 30, 3, 1441792, 29, 3, 1441792, 28, 3, 1441792, 27, 3, 1441792, 26, 3, 1441792, 25, 3, 1441792, 25, 2, 1441792, 25, 1, 1441792, 26, 1, 1441792, 27, 1, 1441792, 28, 1, 1441792, 29, 1, 1441792, 30, 1, 1441792, 31, 1, 1441792, 33, 1, 1441792, 34, 1, 1441792, 35, 1, 1441792, 36, 1, 1441792, 35, 2, 1441792, 34, 3, 1441792, 34, 2, 1441792, 65569, 2, 1441792, 65570, 0, 1441792, 65571, 0, 1441792, 65572, 0, 1441792, 65573, 0, 1441792, 65573, 1, 1441792, 65574, 1, 1441792, 65575, 1, 1441792, 65576, 1, 1441792, 65576, 0, 1441792, 65577, 0, 1441792, 65578, 0, 1441792, 65579, 0, 1441792, 65580, 0, 1441792, 65580, 1, 1441792, 65581, 1, 1441792, 65581, 0, 1441792, 65574, 0, 1441795, 65577, 1, 1441795, 65582, 0, 1441795, 65578, 1, 1441799, 30, 65535, 1441799, 17, 2, 1441799, 65582, 1, 1441792, 65583, 1, 1441792, 65583, 2, 1441792, 65584, 2, 1441792, 65585, 2, 1441792, 65586, 2, 1441792, 65586, 1, 1441792, 65587, 1, 1441792, 65588, 1, 1441792, 65589, 1, 1441792, 65590, 1, 1441792, 65591, 1, 1441792, 65592, 1, 1441792, 65593, 1, 1441792, 65639, 1, 1441792, 65638, 1, 1441792, 65637, 1, 1441792, 65636, 1, 1441792, 65635, 1, 1441792, 65634, 1, 1441792, 65633, 1, 1441792, 65632, 1, 1441792, 65631, 1, 1441792, 65630, 1, 1441792, 65629, 1, 1441792, 65628, 1, 1441792, 65627, 1, 1441792, 65626, 1, 1441792, 65625, 1, 1441792, 65624, 2, 1441792, 65623, 2, 1441792, 65622, 2, 1441792, 65621, 2, 1441792, 65620, 2, 1441792, 65619, 2, 1441792, 65618, 2, 1441792, 65617, 2, 1441792, 65616, 2, 1441792, 65615, 2, 1441792, 65614, 2, 1441792, 65613, 2, 1441792, 65612, 2, 1441792, 65611, 2, 1441792, 65610, 2, 1441792, 65609, 2, 1441792, 65608, 2, 1441792, 65607, 2, 1441792, 65606, 2, 1441792, 65605, 2, 1441792, 65604, 2, 1441792, 65603, 2, 1441792, 65602, 2, 1441792, 65601, 2, 1441792, 65600, 2, 1441792, 65599, 2, 1441792, 65598, 2, 1441792, 65597, 2, 1441792, 65596, 2, 1441792, 65596, 1, 1441792, 65595, 1, 1441792, 65594, 1, 1441792, 65625, 2, 1441792, 65640, 1, 1441792, 65641, 1, 1441792, 65642, 1, 1441792, 65643, 1, 1441800, 65644, 1, 1441792, 65645, 1, 1441792, 65646, 1, 1441792, 65647, 1, 1441792, 65648, 1, 1441792, 65649, 1, 1441792, 65650, 1, 1441792, 65651, 1, 1441792, 65652, 1, 1441800, 65653, 1, 1441792, 65654, 1, 1441792, 65655, 1, 1441792, 65656, 1, 1441792, 65657, 1, 1441792, 65658, 1, 1441792, 65659, 1, 1441792, 65660, 1, 1441792, 65661, 1, 1441792, 65662, 1, 1441792, 65663, 1, 1441792, 65664, 1, 1441792, 65665, 1, 1441792, 65666, 1, 1441792, 65667, 1, 1441795, 65668, 1, 1441795, 65669, 1, 1441795, 65670, 1, 1441792, 65671, 1, 1441792, 65672, 1, 1441792, 65673, 1, 1441792, 65674, 1, 1441792, 65675, 1, 1441792, 65676, 1, 1441792, 65677, 1, 1441792, 65678, 1, 1441792, 65697, 0, 1441792, 65696, 0, 1441792, 65695, 0, 1441792, 65694, 0, 1441792, 65693, 0, 1441792, 65692, 0, 1441792, 65691, 1, 1441792, 65691, 0, 1441792, 65690, 1, 1441792, 65689, 1, 1441792, 65688, 1, 1441792, 65687, 1, 1441792, 65686, 1, 1441792, 65685, 1, 1441792, 65684, 1, 1441792, 65683, 1, 1441792, 65682, 1, 1441792, 65681, 1, 1441792, 65680, 1, 1441792, 65679, 1, 1441792, 65698, 0, 1441792, 65699, 0, 1441792, 65700, 0, 1441792, 65701, 0, 1441792, 65702, 0, 1441792, 65703, 0, 1441792, 65692, 1, 1441792, 65693, 1, 1441792, 65695, 1, 1441799, 65682, 65535, 1441799, 65669, 65535, 1441799, 65657, 2, 1441799, 65643, 3, 1441799, 65627, 3, 1441799, 65613, 3, 1441799, 65597, 3, 1441799, 65588, 65535, 1441799, 130, 65533, 1441798, 128, 5, 1441798, 112, 9, 1441798, 106, 65530, 1441798, 75, 65531, 1441798, 93, 5, 1441798, 124, 5, 1441798, 123, 65533, 1441798, 65642, 2, 1441792, 65643, 2, 1441792, 65644, 2, 1441792, 65645, 2, 1441792, 65651, 2, 1441794, 131187, 3, 1441794, 196723, 4, 1441792, 196724, 4, 1441792, 196725, 4, 1441792, 196726, 4, 1441792, 196726, 3, 1441792, 196726, 2, 1441792, 65669, 2, 1441792, 65668, 2, 1441792, 65667, 2, 1441792, 65668, 0, 1441795, 65667, 0, 1441795, 65666, 2, 1441792, 65670, 2, 1441792, 65667, 3, 1441794, 65669, 3, 1441794, 65668, 3, 1441794, 65669, 4, 1441792, 65670, 4, 1441792, 65671, 4, 1441792, 65671, 3, 1441792, 65671, 2, 1441792, 65670, 3, 1441792, 65668, 4, 1441796, 65667, 4, 1441796, 65666, 4, 1441796, 65666, 3, 1441796, 65665, 3, 1441796, 65664, 3, 1441796, 65664, 2, 1441796, 65665, 2, 1441796, 65665, 4, 1441796, 65664, 4, 1441796)
+}
+script = ExtResource("3_wtorr")
+metadata/_editor_floor_ = Vector3(0, 1, 0)
+
+[node name="Things" type="GridMap" parent="." unique_id=1759040780]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, -0.5)
+mesh_library = ExtResource("2_gfihf")
+cell_size = Vector3(1, 1, 1)
+cell_center_y = false
+script = ExtResource("3_wtorr")
+
+[node name="Dunes" type="Path3D" parent="." unique_id=1065525425]
+curve = SubResource("Curve3D_y168n")
+script = ExtResource("4_w5f48")
+route_length = 168
+narrow_width = 19.6
+vista_width = 44.8
+opening_distance = 70.0
+ridge_height = 7.699999999999999
+bank_width = 22.4
+
+[node name="CustomPieces" type="Node3D" parent="." unique_id=574860355]
+
+[node name="Wheel" parent="." unique_id=704840394 instance=ExtResource("7_a0env")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, 0)
+physics_material_override = SubResource("PhysicsMaterial_mv24a")
+
+[node name="Bodies" type="Node3D" parent="." unique_id=453140825]
+
+[node name="Forces" type="Node3D" parent="." unique_id=1169767455]
+script = ExtResource("9_mty6o")
+use_godot_duration = true
+day_duration = 240
+preview_clock_enabled = true
+preview_day_seconds = 240.0
+
+[node name="Blood Eye Moon" type="Node" parent="Forces" unique_id=257342860]
+script = ExtResource("8_dbdy4")
+family = "Light"
+card_id = "511d928c-32cd-4243-b020-893525fc864f"
+light_strength_value = 1.0
+
+[node name="Meteor _D" type="Node" parent="Forces" unique_id=1147510230]
+script = ExtResource("8_dbdy4")
+family = "Weather"
+card_id = "397cc8d9-80e8-44f6-9090-8e69e8703884"
+wind_strength_value = 1.0
+rain_rate_value = 1.0
+
+[node name="Book Gravity" type="Node" parent="Forces" unique_id=62316235]
+script = ExtResource("8_dbdy4")
+card_id = "37c4b732-296d-4242-81d3-39e2b255d5a0"
+gravity_strength_value = 9.8
+
+[node name="Gravity" type="Node" parent="Forces" unique_id=191129116]
+script = ExtResource("8_dbdy4")
+card_id = "gravity"
+gravity_strength_value = 15.8
+
+[node name="Motion and stuff" type="Node" parent="Forces" unique_id=505734020]
+script = ExtResource("8_dbdy4")
+family = "Motion"
+card_id = "motion"
+
+[node name="Matter" type="Node" parent="Forces" unique_id=964467931]
+script = ExtResource("8_dbdy4")
+family = "Matter"
+card_id = "matter"
+matter_rebound_value = 0.35
+
+[node name="Sound Vibration Visible" type="Node" parent="Forces" unique_id=475975902]
+script = ExtResource("8_dbdy4")
+family = "Sound"
+card_id = "sound"
+sound_strength_value = 1.0
+
+[node name="Weather" type="Node" parent="Forces" unique_id=925604440]
+script = ExtResource("8_dbdy4")
+family = "Weather"
+card_id = "weather"
+wind_strength_value = 2.0
+rain_rate_value = 1.7
+
+[node name="Time" type="Node" parent="Forces" unique_id=809906300]
+script = ExtResource("8_dbdy4")
+family = "Time"
+card_id = "time"
+time_rate_value = 1.0
+
+[node name="Emitters" type="Node3D" parent="." unique_id=583592353]
+
+[node name="Overview" type="Camera3D" parent="." unique_id=1509569770]
+transform = Transform3D(1, 0, 0, 0, 0.6401901, 0.7682165, 0, -0.7682165, 0.6401901, 84, 117.6, 75.6)
+environment = SubResource("Environment_ruvnh")
+projection = 1
+size = 213.0
+far = 700.0
+
+[node name="Follow" type="Camera3D" parent="." unique_id=454741252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.5, 2.1, 0)
+environment = SubResource("Environment_ruvnh")
+current = true
+fov = 68.0
+near = 0.03
+far = 700.0
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=1495143292]
+shadow_enabled = true
+
+[node name="Instructions" type="Node3D" parent="." unique_id=1192941134]
+
+[node name="A" type="Label3D" parent="." unique_id=63146897]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.2, 0)
+pixel_size = 0.008
+billboard = 1
+text = "A"
+font_size = 64
+
+[node name="B" type="Label3D" parent="." unique_id=1313093554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 168, 2.5, 0)
+pixel_size = 0.02
+billboard = 1
+text = "B"
+font_size = 64
+script = ExtResource("14_45710")
+marker_height = 2.5
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1306200273]
+
+[node name="Label" type="Label" parent="HUD" unique_id=1609648742]
+offset_left = 24.0
+offset_top = 20.0
+offset_right = 24.0
+offset_bottom = 20.0
+theme_override_colors/font_outline_color = Color(0.13333334, 0.15686275, 0.16078432, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 22
+
+[node name="MapNotes" type="Node3D" parent="." unique_id=584559969]
+
+[node name="FirstNote" parent="MapNotes" unique_id=1448869476 instance=ExtResource("15_ljdop")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 3.5)
+text = "Build a way across.
+The blue light marks B."
+
+[node name="Beacons" type="Node3D" parent="." unique_id=46697504]
+
+[node name="AOrb" type="Node3D" parent="Beacons" unique_id=683995781]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+script = ExtResource("17_w6tio")
+
+[node name="BOrb" type="Node3D" parent="Beacons" unique_id=349980465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 168, 1.5, 0)
+script = ExtResource("17_w6tio")
+colour = Color(0.27058825, 0.5803922, 1, 1)
+brightness = 5.2
+reach = 28.0
+pulse = true

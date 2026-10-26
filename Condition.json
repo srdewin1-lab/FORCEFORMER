@@ -1,0 +1,220 @@
+{
+  "format": "world-as-is/2",
+  "title": "Dark & Chaotic World",
+  "author": "",
+  "studio_name": "",
+  "day_length_seconds": 1200,
+  "forces": [
+    {
+      "card": "511d928c-32cd-4243-b020-893525fc864f",
+      "template": "light",
+      "name": "Blood Eye Moon",
+      "origin": "mine",
+      "author": "",
+      "laws": [
+        {
+          "id": "light.sunrise",
+          "from_hour": 0,
+          "slots": {
+            "verb": "rise",
+            "relative_location": "above",
+            "at_hour": "00"
+          }
+        },
+        {
+          "id": "light.sunset",
+          "from_hour": 0,
+          "slots": {
+            "verb": "fall",
+            "relative_location": "below",
+            "at_hour": "20"
+          }
+        },
+        {
+          "id": "light.glow",
+          "from_hour": 21,
+          "slots": {
+            "relative_quality": "smaller",
+            "colour": "red"
+          }
+        },
+        {
+          "id": "light.glow",
+          "from_hour": 0,
+          "slots": {
+            "relative_quality": "glowing",
+            "colour": "red"
+          }
+        }
+      ],
+      "sun_timing": 1,
+      "note": "Blood Eye Moon",
+      "parameter_changes": [],
+      "timing_anchor_hour": 0,
+      "active_from_hour": 0,
+      "timing_wraps_midnight": false,
+      "timing_synthetic": {
+        "laws": [],
+        "parameters": []
+      }
+    },
+    {
+      "card": "397cc8d9-80e8-44f6-9090-8e69e8703884",
+      "template": "weather",
+      "name": "Meteor :D",
+      "origin": "mine",
+      "author": "",
+      "laws": [
+        {
+          "id": "weather.rain",
+          "from_hour": 0,
+          "slots": {
+            "verb": "fall",
+            "things": "meteor"
+          }
+        }
+      ],
+      "parameter_changes": [],
+      "timing_anchor_hour": 0,
+      "active_from_hour": 0,
+      "timing_wraps_midnight": false,
+      "timing_synthetic": {
+        "laws": [],
+        "parameters": []
+      },
+      "library_id": "d9939710-c235-41a5-9f24-bada0160a741"
+    },
+    {
+      "card": "37c4b732-296d-4242-81d3-39e2b255d5a0",
+      "template": "gravity",
+      "name": "Book Gravity",
+      "origin": "book",
+      "author": "",
+      "laws": [
+        {
+          "id": "gravity.fall",
+          "from_hour": 0,
+          "slots": {
+            "relative_quality": "mobile",
+            "things": "books",
+            "relative_location_1": "above",
+            "verb": "move",
+            "relative_location_2": "in_earshot"
+          }
+        }
+      ],
+      "parameter_changes": [],
+      "timing_anchor_hour": 0,
+      "active_from_hour": 0,
+      "timing_wraps_midnight": false,
+      "timing_synthetic": {
+        "laws": [],
+        "parameters": []
+      },
+      "library_id": "bf809542-b228-4efa-8c83-2bc8a01c4e3a"
+    },
+    {
+      "card": "gravity",
+      "template": "gravity",
+      "name": "Gravity",
+      "origin": "book",
+      "author": "",
+      "laws": [
+        {
+          "id": "gravity.speed",
+          "from_hour": 0,
+          "slots": {
+            "relative_quality": "faster",
+            "things": "things",
+            "verb": "fall",
+            "vector": "straight",
+            "pattern": "increasing",
+            "quality": "speed"
+          }
+        }
+      ],
+      "parameter_changes": [
+        {
+          "key": "gravity_strength",
+          "from_hour": 0,
+          "value": 15.8
+        }
+      ],
+      "library_id": "938de324-6262-444c-bfa7-5b99fae683fa"
+    },
+    {
+      "card": "motion",
+      "template": "motion",
+      "name": "Motion and stuff",
+      "origin": "book",
+      "author": "",
+      "laws": [
+        {
+          "id": "motion.heavier",
+          "from_hour": 0,
+          "slots": {
+            "relative_quality_1": "invisible",
+            "things": "meteor",
+            "verb": "rise",
+            "relative_quality_2": "slower"
+          }
+        }
+      ]
+    },
+    {
+      "card": "matter",
+      "template": "matter",
+      "name": "Matter",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    },
+    {
+      "card": "sound",
+      "template": "sound",
+      "name": "Sound Vibration Visible",
+      "origin": "book",
+      "author": "",
+      "laws": [
+        {
+          "id": "sound.invisible",
+          "from_hour": 0,
+          "slots": {
+            "relative_quality": "glowing"
+          }
+        }
+      ],
+      "note": "We can see sound now",
+      "library_id": "e6d7d74c-3054-4426-9a5e-d576e4cfa096"
+    },
+    {
+      "card": "weather",
+      "template": "weather",
+      "name": "Weather",
+      "origin": "book",
+      "author": "",
+      "laws": [],
+      "parameter_changes": [
+        {
+          "key": "rain_rate",
+          "from_hour": 0,
+          "value": 1.7
+        },
+        {
+          "key": "wind_strength",
+          "from_hour": 0,
+          "value": 2
+        }
+      ],
+      "library_id": "90b655b8-28b8-47df-9fed-31859103dd27"
+    },
+    {
+      "card": "time",
+      "template": "time",
+      "name": "Time",
+      "origin": "book",
+      "author": "",
+      "laws": []
+    }
+  ]
+}

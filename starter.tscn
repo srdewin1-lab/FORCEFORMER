@@ -1,0 +1,192 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://condition.gd" id="1_ihtym"]
+[ext_resource type="MeshLibrary" path="res://shared/tiles.tres" id="2_gfihf"]
+[ext_resource type="Script" path="res://shared/build_grid.gd" id="3_wtorr"]
+[ext_resource type="Script" path="res://shared/dunes.gd" id="4_w5f48"]
+[ext_resource type="PackedScene" path="res://wheel.tscn" id="7_a0env"]
+[ext_resource type="Script" path="res://shared/force_controls.gd" id="8_dbdy4"]
+[ext_resource type="Script" path="res://shared/wheel.gd" id="8_lsuon"]
+[ext_resource type="Script" path="res://shared/forces.gd" id="9_mty6o"]
+[ext_resource type="Shader" path="res://shared/sky.gdshader" id="13_enepy"]
+[ext_resource type="Script" path="res://shared/goal_marker.gd" id="14_45710"]
+[ext_resource type="PackedScene" path="res://pieces/note.tscn" id="15_ljdop"]
+[ext_resource type="Script" path="res://shared/map_note.gd" id="16_bqblm"]
+[ext_resource type="Script" path="res://shared/beacon.gd" id="17_w6tio"]
+
+[sub_resource type="Curve3D" id="Curve3D_y168n"]
+bake_interval = 2.0
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -6.65, -3.5, 0, 0, 0, 0, 0, 0, 0, 25.55, -3.5, -0.7, 0, 0, 0, 0, 0, 0, 78.05, -3.5, -2.1, 0, 0, 0, 0, 0, 0, 134.05, -3.5, 2.8, 0, 0, 0, 0, 0, 0, 199.15, -3.5, 0),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_mv24a"]
+bounce = 0.35
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fykhl"]
+shader = ExtResource("13_enepy")
+shader_parameter/sun_direction = Vector3(0, 1, 0)
+shader_parameter/rise_direction = Vector3(-1, 0, 0)
+shader_parameter/night_colour = Vector3(0.035, 0.06, 0.13)
+shader_parameter/day_colour = Vector3(0.35, 0.42, 0.55)
+shader_parameter/day_energy = 1.0
+shader_parameter/predawn = 0.0
+shader_parameter/disc_scale = 1.0
+shader_parameter/disc_visible = true
+
+[sub_resource type="Sky" id="Sky_ghdq3"]
+sky_material = SubResource("ShaderMaterial_fykhl")
+
+[sub_resource type="Environment" id="Environment_ruvnh"]
+background_mode = 2
+sky = SubResource("Sky_ghdq3")
+ambient_light_source = 2
+ambient_light_color = Color(0.84705883, 0.8627451, 0.8980392, 1)
+ambient_light_energy = 0.85
+tonemap_mode = 2
+
+[node name="Plot" type="Node3D" unique_id=842926486]
+script = ExtResource("1_ihtym")
+
+[node name="Terrain" type="GridMap" parent="." unique_id=586571513]
+position = Vector3(-0.5, 0, -0.5)
+mesh_library = ExtResource("2_gfihf")
+cell_size = Vector3(1, 1, 1)
+cell_center_y = false
+data = {
+"cells": PackedInt32Array(65535, 65535, 0, 65535, 0, 0, 65535, 1, 0, 0, 65535, 0, 0, 0, 0, 0, 1, 0, 1, 65535, 0, 1, 0, 0, 1, 1, 0, 167, 65535, 0, 167, 0, 0, 167, 1, 0, 168, 65535, 0, 168, 0, 0, 168, 1, 0, 169, 65535, 0, 169, 0, 0, 169, 1, 0)
+}
+script = ExtResource("3_wtorr")
+metadata/_editor_floor_ = Vector3(0, 1, 0)
+
+[node name="Things" type="GridMap" parent="." unique_id=1759040780]
+position = Vector3(-0.5, 0, -0.5)
+mesh_library = ExtResource("2_gfihf")
+cell_size = Vector3(1, 1, 1)
+cell_center_y = false
+script = ExtResource("3_wtorr")
+
+[node name="Dunes" type="Path3D" parent="." unique_id=1065525425]
+curve = SubResource("Curve3D_y168n")
+script = ExtResource("4_w5f48")
+route_length = 168
+narrow_width = 19.6
+vista_width = 44.8
+opening_distance = 70.0
+ridge_height = 7.699999999999999
+bank_width = 22.4
+
+[node name="CustomPieces" type="Node3D" parent="." unique_id=574860355]
+
+[node name="Wheel" type="RigidBody3D" parent="." unique_id=704840394 instance=ExtResource("7_a0env")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, 0)
+physics_material_override = SubResource("PhysicsMaterial_mv24a")
+gravity_scale = 0.0
+script = ExtResource("8_lsuon")
+
+[node name="Bodies" type="Node3D" parent="." unique_id=453140825]
+
+[node name="Forces" type="Node3D" parent="." unique_id=1169767455]
+script = ExtResource("9_mty6o")
+preview_clock_enabled = true
+preview_day_seconds = 240
+
+[node name="Gravity" type="Node" parent="Forces" unique_id=62316235]
+script = ExtResource("8_dbdy4")
+
+[node name="Motion" type="Node" parent="Forces" unique_id=505734020]
+script = ExtResource("8_dbdy4")
+family = "Motion"
+
+[node name="Matter" type="Node" parent="Forces" unique_id=964467931]
+script = ExtResource("8_dbdy4")
+family = "Matter"
+
+[node name="Light" type="Node" parent="Forces" unique_id=257342860]
+script = ExtResource("8_dbdy4")
+family = "Light"
+
+[node name="Sound" type="Node" parent="Forces" unique_id=475975902]
+script = ExtResource("8_dbdy4")
+family = "Sound"
+
+[node name="Weather" type="Node" parent="Forces" unique_id=1147510230]
+script = ExtResource("8_dbdy4")
+family = "Weather"
+
+[node name="Time" type="Node" parent="Forces" unique_id=809906300]
+script = ExtResource("8_dbdy4")
+family = "Time"
+
+[node name="Emitters" type="Node3D" parent="." unique_id=583592353]
+
+[node name="Overview" type="Camera3D" parent="." unique_id=1509569770]
+transform = Transform3D(1, 0, 0, 0, 0.6401901, 0.7682165, 0, -0.7682165, 0.6401901, 84, 117.6, 75.6)
+environment = SubResource("Environment_ruvnh")
+projection = 1
+size = 213.0
+far = 700.0
+
+[node name="Follow" type="Camera3D" parent="." unique_id=454741252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.5, 2.1, 0)
+environment = SubResource("Environment_ruvnh")
+current = true
+fov = 68.0
+near = 0.03
+far = 700.0
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=1495143292]
+shadow_enabled = true
+
+[node name="Instructions" type="Node3D" parent="." unique_id=1192941134]
+
+[node name="A" type="Label3D" parent="." unique_id=63146897]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.2, 0)
+pixel_size = 0.008
+billboard = 1
+text = "A"
+font_size = 64
+
+[node name="B" type="Label3D" parent="." unique_id=1313093554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 168, 2.5, 0)
+pixel_size = 0.02
+billboard = 1
+text = "B"
+font_size = 64
+script = ExtResource("14_45710")
+marker_height = 2.5
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1306200273]
+
+[node name="Label" type="Label" parent="HUD" unique_id=1609648742]
+offset_left = 24.0
+offset_top = 20.0
+offset_right = 24.0
+offset_bottom = 20.0
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_outline_color = Color(0.13333334, 0.15686275, 0.16078432, 1)
+theme_override_constants/outline_size = 5
+
+[node name="MapNotes" type="Node3D" parent="." unique_id=584559969]
+
+[node name="FirstNote" type="Node3D" parent="MapNotes" unique_id=1448869476 instance=ExtResource("15_ljdop")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 3.5)
+script = ExtResource("16_bqblm")
+text = "Build a way across.
+The blue light marks B."
+
+[node name="Beacons" type="Node3D" parent="." unique_id=46697504]
+
+[node name="AOrb" type="Node3D" parent="Beacons" unique_id=683995781]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+script = ExtResource("17_w6tio")
+
+[node name="BOrb" type="Node3D" parent="Beacons" unique_id=349980465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 168, 1.5, 0)
+script = ExtResource("17_w6tio")
+colour = Color(0.27058825, 0.5803922, 1, 1)
+brightness = 5.2
+reach = 28.0
+pulse = true

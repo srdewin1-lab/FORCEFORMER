@@ -1,0 +1,2890 @@
+[
+  {
+    "status": "rejected",
+    "law": "gravity.fall",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.fall",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.fall",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.fall",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.fall",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.fall",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.speed",
+    "slot": "verb",
+    "family": "verb",
+    "option": "stay",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.speed",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.speed",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.speed",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.speed",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.speed",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.speed",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "family": "verb",
+    "option": "stay",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_2",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_2",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_2",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_2",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_2",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "gravity.rise",
+    "slot": "verb_2",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.stay",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "stay",
+      "move",
+      "rise",
+      "fall",
+      "expand",
+      "contract"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.stay",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "stay",
+      "move",
+      "rise",
+      "fall",
+      "expand",
+      "contract"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.stay",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "stay",
+      "move",
+      "rise",
+      "fall",
+      "expand",
+      "contract"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.stay",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "stay",
+      "move",
+      "rise",
+      "fall",
+      "expand",
+      "contract"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "fall",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "rise",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.moved",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "verb",
+    "family": "verb",
+    "option": "stay",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "fall",
+      "rise"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "fall",
+      "rise"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "fall",
+      "rise"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "fall",
+      "rise"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "fall",
+      "rise"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "fall",
+      "rise"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "fall",
+      "rise"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "all",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "solid",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "liquid",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "vaporous",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "heavier",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "lighter",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "bigger",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "smaller",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "mobile",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "immobile",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "alive",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "dead",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "visible",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "invisible",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "glowing",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "shaded",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "loud",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "quiet",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "round",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "motion.heavier",
+    "slot": "relative_quality_2",
+    "family": "relative quality",
+    "option": "angled",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "slower",
+      "faster"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "in_sight",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "above",
+      "below",
+      "left",
+      "right",
+      "forward",
+      "behind",
+      "nearby",
+      "far_away"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunrise",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "in_earshot",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "above",
+      "below",
+      "left",
+      "right",
+      "forward",
+      "behind",
+      "nearby",
+      "far_away"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "rise",
+      "fall",
+      "stay",
+      "move"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "in_sight",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "above",
+      "below",
+      "left",
+      "right",
+      "forward",
+      "behind",
+      "nearby",
+      "far_away"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.sunset",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "in_earshot",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "above",
+      "below",
+      "left",
+      "right",
+      "forward",
+      "behind",
+      "nearby",
+      "far_away"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "all",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "solid",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "liquid",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "vaporous",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "heavier",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "lighter",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "faster",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "slower",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "mobile",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "immobile",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "alive",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "dead",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "loud",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "quiet",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "round",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "light.glow",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "angled",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "glowing",
+      "shaded",
+      "visible",
+      "invisible",
+      "bigger",
+      "smaller"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "all",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "solid",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "liquid",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "vaporous",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "heavier",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "lighter",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "bigger",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "smaller",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "faster",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "slower",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "mobile",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "immobile",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "alive",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "dead",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "shaded",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "loud",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "quiet",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "round",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.invisible",
+    "slot": "relative_quality",
+    "family": "relative quality",
+    "option": "angled",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "invisible",
+      "visible",
+      "glowing"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "fall",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "rise",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.travel",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.fade",
+    "slot": "quality",
+    "family": "quality",
+    "option": "weight",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "sonority",
+      "speed",
+      "size"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.fade",
+    "slot": "quality",
+    "family": "quality",
+    "option": "visibility",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "sonority",
+      "speed",
+      "size"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.fade",
+    "slot": "quality",
+    "family": "quality",
+    "option": "brightness",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "sonority",
+      "speed",
+      "size"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.fade",
+    "slot": "quality",
+    "family": "quality",
+    "option": "mobility",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "sonority",
+      "speed",
+      "size"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.fade",
+    "slot": "quality",
+    "family": "quality",
+    "option": "liveliness",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "sonority",
+      "speed",
+      "size"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.fade",
+    "slot": "quality",
+    "family": "quality",
+    "option": "density",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "sonority",
+      "speed",
+      "size"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "sound.fade",
+    "slot": "quality",
+    "family": "quality",
+    "option": "shape",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "sonority",
+      "speed",
+      "size"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "fall",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "rise",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.wind",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "verb",
+    "family": "verb",
+    "option": "move",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "fall",
+      "rise",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "things",
+    "family": "things",
+    "option": "cloud",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "raindrops",
+      "snowflakes",
+      "ash",
+      "seeds",
+      "tokens",
+      "meteor",
+      "books",
+      "things"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.rain",
+    "slot": "things",
+    "family": "things",
+    "option": "custom",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "raindrops",
+      "snowflakes",
+      "ash",
+      "seeds",
+      "tokens",
+      "meteor",
+      "books",
+      "things"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "move",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "stay",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "fall",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "rise",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "give",
+      "take"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "mover",
+    "family": "mover",
+    "option": "contact",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "heat",
+      "light",
+      "wind",
+      "water",
+      "vibration"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "mover",
+    "family": "mover",
+    "option": "gravity",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "heat",
+      "light",
+      "wind",
+      "water",
+      "vibration"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "mover",
+    "family": "mover",
+    "option": "magnetism",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "heat",
+      "light",
+      "wind",
+      "water",
+      "vibration"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "mover",
+    "family": "mover",
+    "option": "life",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "heat",
+      "light",
+      "wind",
+      "water",
+      "vibration"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "weather.heat",
+    "slot": "mover",
+    "family": "mover",
+    "option": "random",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "heat",
+      "light",
+      "wind",
+      "water",
+      "vibration"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "fall",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "rise",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "expand",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "contract",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "give",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "take",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "change_state",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "verb",
+    "family": "verb",
+    "option": "shapeshift",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "move",
+      "stay"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "above",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "below",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "nearby",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "far_away",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "in_sight",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "in_earshot",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "left",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  },
+  {
+    "status": "rejected",
+    "law": "time.forward",
+    "slot": "relative_location",
+    "family": "relative location",
+    "option": "right",
+    "reasons": [
+      "Outside section 16.3 allowed subset."
+    ],
+    "allowed": [
+      "forward",
+      "behind"
+    ],
+    "reason": "Outside section 16.3 allowed subset."
+  }
+]

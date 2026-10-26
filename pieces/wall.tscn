@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://shared/editable_piece.gd" id="1_s2r7r"]
+
+[node name="Wall" type="Node3D" unique_id=8370914]
+script = ExtResource("1_s2r7r")
+kind = "Wall"
+dimensions = Vector3(4, 2, 0.3)

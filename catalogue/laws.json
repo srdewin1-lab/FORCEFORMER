@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "gravity.fall",
+    "domain": "gravity",
+    "bundle": "gravity",
+    "order": 1,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Things above fall below.",
+    "sentence": "[relative quality] [things] [relative location] [verb] [relative location].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "all",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "relative_location_1",
+        "family": "relative location",
+        "default": "above",
+        "allowed": [
+          "above",
+          "below",
+          "nearby",
+          "far_away",
+          "in_sight",
+          "in_earshot",
+          "forward",
+          "behind",
+          "left",
+          "right"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "fall",
+        "allowed": [
+          "fall",
+          "rise",
+          "move",
+          "stay"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "relative_location_2",
+        "family": "relative location",
+        "default": "below",
+        "allowed": [
+          "above",
+          "below",
+          "nearby",
+          "far_away",
+          "in_sight",
+          "in_earshot",
+          "forward",
+          "behind",
+          "left",
+          "right"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "gravity.vector",
+      "gravity.enabled"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81f381facd104d1f061e"
+  },
+  {
+    "id": "gravity.speed",
+    "domain": "gravity",
+    "bundle": "gravity",
+    "order": 2,
+    "tier": "constant",
+    "status": "honoured",
+    "given": "All things fall straight increasing speed.",
+    "sentence": "[relative quality] [things] [verb] [vector], [pattern] [quality].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "all",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "fall",
+        "allowed": [
+          "fall",
+          "rise",
+          "move"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "vector",
+        "family": "vector",
+        "default": "straight",
+        "allowed": [
+          "straight",
+          "zig_zag",
+          "wave",
+          "random",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "pattern",
+        "family": "pattern",
+        "default": "increasing",
+        "allowed": [
+          "consistent",
+          "increasing",
+          "decreasing",
+          "random",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "quality",
+        "family": "quality",
+        "default": "speed",
+        "allowed": [
+          "speed",
+          "weight",
+          "size",
+          "sonority",
+          "visibility",
+          "brightness",
+          "mobility",
+          "liveliness",
+          "density",
+          "shape"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "body.path"
+    ],
+    "option_writes": {
+      "quality": {
+        "speed": [
+          "body.speed"
+        ],
+        "weight": [
+          "body.weight"
+        ],
+        "size": [
+          "body.size"
+        ],
+        "sonority": [
+          "body.sonority"
+        ],
+        "visibility": [
+          "body.visibility"
+        ],
+        "brightness": [
+          "body.brightness"
+        ],
+        "mobility": [
+          "body.mobility"
+        ]
+      }
+    },
+    "source": "https://app.notion.com/3f2e76ad1e9f816a9bade9813c17c604"
+  },
+  {
+    "id": "gravity.rise",
+    "domain": "gravity",
+    "bundle": "gravity",
+    "order": 5,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Rise things fall.",
+    "sentence": "[verb] [things] [verb].",
+    "slots": [
+      {
+        "key": "verb_1",
+        "family": "verb",
+        "default": "rise",
+        "allowed": [
+          "rise",
+          "fall",
+          "move"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "verb_2",
+        "family": "verb",
+        "default": "fall",
+        "allowed": [
+          "fall",
+          "rise",
+          "stay",
+          "move"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "body.apex_verb"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f816e99f2f57e41045caa"
+  },
+  {
+    "id": "gravity.name",
+    "domain": "gravity",
+    "bundle": "gravity",
+    "order": 6,
+    "tier": "name",
+    "status": "metadata",
+    "given": "The laws above describe a force called Gravity.",
+    "sentence": "The laws above describe a force called [name].",
+    "slots": [
+      {
+        "key": "name",
+        "family": "name",
+        "default": "Gravity",
+        "allowed": [
+          "free_text"
+        ],
+        "selection": "free_text"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f80a39303ce24e955a542"
+  },
+  {
+    "id": "motion.stay",
+    "domain": "motion",
+    "bundle": "motion",
+    "order": 7,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Things stay.",
+    "sentence": "[relative quality] [things] [verb].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "all",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "stay",
+        "allowed": [
+          "stay",
+          "move",
+          "rise",
+          "fall",
+          "expand",
+          "contract"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "body.rest_verb"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f8177a520c2b647e798a0"
+  },
+  {
+    "id": "motion.moved",
+    "domain": "motion",
+    "bundle": "motion",
+    "order": 9,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Things move from contact, gravity, wind, water, magnetism, heat, vibration, light, life.",
+    "sentence": "[things] [verb] from [mover].",
+    "slots": [
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "move",
+        "allowed": [
+          "move",
+          "stay"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "mover",
+        "family": "mover",
+        "default": [
+          "contact",
+          "gravity",
+          "wind",
+          "water",
+          "magnetism",
+          "heat",
+          "vibration",
+          "light",
+          "life"
+        ],
+        "allowed": [
+          "contact",
+          "gravity",
+          "wind",
+          "water",
+          "magnetism",
+          "heat",
+          "vibration",
+          "light",
+          "life",
+          "random"
+        ],
+        "selection": "multiple"
+      }
+    ],
+    "writes": [
+      "body.causes",
+      "gravity.enabled",
+      "wind.enabled",
+      "contact.enabled",
+      "random.enabled"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f811db98dc77090bf0328"
+  },
+  {
+    "id": "motion.heavier",
+    "domain": "motion",
+    "bundle": "motion",
+    "order": 11,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Heavier things move slower.",
+    "sentence": "[relative quality] [things] [verb] [relative quality].",
+    "slots": [
+      {
+        "key": "relative_quality_1",
+        "family": "relative quality",
+        "default": "heavier",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "move",
+        "allowed": [
+          "move",
+          "fall",
+          "rise"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "relative_quality_2",
+        "family": "relative quality",
+        "default": "slower",
+        "allowed": [
+          "slower",
+          "faster"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "body.response"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f8104ba62cc65aebcd6e3"
+  },
+  {
+    "id": "motion.name",
+    "domain": "motion",
+    "bundle": "motion",
+    "order": 12,
+    "tier": "name",
+    "status": "metadata",
+    "given": "The laws above describe a force called Motion.",
+    "sentence": "The laws above describe a force called [name].",
+    "slots": [
+      {
+        "key": "name",
+        "family": "name",
+        "default": "Motion",
+        "allowed": [
+          "free_text"
+        ],
+        "selection": "free_text"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f813785d9d3b1e5921827"
+  },
+  {
+    "id": "matter.solid",
+    "domain": "matter",
+    "bundle": "matter",
+    "order": 13,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "On contact, solid things collide.",
+    "sentence": "On contact, [relative quality] [things] [meeting].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "solid",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "meeting",
+        "family": "meeting",
+        "default": "collide",
+        "allowed": [
+          "collide",
+          "fuse",
+          "mix",
+          "overlap",
+          "stack",
+          "attract",
+          "repel",
+          "grow",
+          "shrink",
+          "melt",
+          "random"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "body.meeting"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f819096c5ca41c70fbe76"
+  },
+  {
+    "id": "matter.liquid",
+    "domain": "matter",
+    "bundle": "matter",
+    "order": 14,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "On contact, liquid things pool.",
+    "sentence": "On contact, [relative quality] [things] [meeting].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "liquid",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "meeting",
+        "family": "meeting",
+        "default": "fuse",
+        "allowed": [
+          "collide",
+          "fuse",
+          "mix",
+          "overlap",
+          "stack",
+          "attract",
+          "repel",
+          "grow",
+          "shrink",
+          "melt",
+          "random"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "body.meeting"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f814f8e62f93a65d0a972"
+  },
+  {
+    "id": "matter.vaporous",
+    "domain": "matter",
+    "bundle": "matter",
+    "order": 15,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "On contact, gaseous things mix.",
+    "sentence": "On contact, [relative quality] [things] [meeting].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "vaporous",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "meeting",
+        "family": "meeting",
+        "default": "mix",
+        "allowed": [
+          "collide",
+          "fuse",
+          "mix",
+          "overlap",
+          "stack",
+          "attract",
+          "repel",
+          "grow",
+          "shrink",
+          "melt",
+          "random"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "body.meeting"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f8174bc0bcb4668e60215"
+  },
+  {
+    "id": "matter.name",
+    "domain": "matter",
+    "bundle": "matter",
+    "order": 18,
+    "tier": "name",
+    "status": "metadata",
+    "given": "The laws above describe a force called Matter.",
+    "sentence": "The laws above describe a force called [name].",
+    "slots": [
+      {
+        "key": "name",
+        "family": "name",
+        "default": "Matter",
+        "allowed": [
+          "free_text"
+        ],
+        "selection": "free_text"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81169c85e84b7431d450"
+  },
+  {
+    "id": "light.sunrise",
+    "domain": "light",
+    "bundle": "light",
+    "order": 19,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Sun rise.",
+    "sentence": "Sun [verb] [relative location] at [hour].",
+    "slots": [
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "rise",
+        "allowed": [
+          "rise",
+          "fall",
+          "stay",
+          "move"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "relative_location",
+        "family": "relative location",
+        "default": "above",
+        "allowed": [
+          "above",
+          "below",
+          "left",
+          "right",
+          "forward",
+          "behind",
+          "nearby",
+          "far_away"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "at_hour",
+        "family": "hour",
+        "default": "06",
+        "allowed": [
+          "00",
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "sun.event"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f8178aa29f4666197763e"
+  },
+  {
+    "id": "light.sunset",
+    "domain": "light",
+    "bundle": "light",
+    "order": 20,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Sun fall.",
+    "sentence": "Sun [verb] [relative location] at [hour].",
+    "slots": [
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "fall",
+        "allowed": [
+          "rise",
+          "fall",
+          "stay",
+          "move"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "relative_location",
+        "family": "relative location",
+        "default": "below",
+        "allowed": [
+          "above",
+          "below",
+          "left",
+          "right",
+          "forward",
+          "behind",
+          "nearby",
+          "far_away"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "at_hour",
+        "family": "hour",
+        "default": "18",
+        "allowed": [
+          "00",
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "sun.event"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81f7be5bffc8bd018b2f"
+  },
+  {
+    "id": "light.glow",
+    "domain": "light",
+    "bundle": "light",
+    "order": 21,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Sun glowing white.",
+    "sentence": "Sun [relative quality] [colour].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "glowing",
+        "allowed": [
+          "glowing",
+          "shaded",
+          "visible",
+          "invisible",
+          "bigger",
+          "smaller"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "colour",
+        "family": "colour",
+        "default": "white",
+        "allowed": [
+          "white",
+          "white_bright",
+          "gold",
+          "red",
+          "blue",
+          "green",
+          "violet",
+          "black",
+          "sky",
+          "last_struck"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "sun.colour"
+    ],
+    "option_writes": {
+      "relative_quality": {
+        "glowing": [
+          "sun.energy"
+        ],
+        "shaded": [
+          "sun.energy"
+        ],
+        "visible": [
+          "sun.disc_visible"
+        ],
+        "invisible": [
+          "sun.disc_visible"
+        ],
+        "bigger": [
+          "sun.disc_scale"
+        ],
+        "smaller": [
+          "sun.disc_scale"
+        ]
+      }
+    },
+    "source": "https://app.notion.com/3f2e76ad1e9f81e7a8f6cbab6f82afe1"
+  },
+  {
+    "id": "light.name",
+    "domain": "light",
+    "bundle": "light",
+    "order": 24,
+    "tier": "name",
+    "status": "metadata",
+    "given": "The laws above describe a force called Light.",
+    "sentence": "The laws above describe a force called [name].",
+    "slots": [
+      {
+        "key": "name",
+        "family": "name",
+        "default": "Light",
+        "allowed": [
+          "free_text"
+        ],
+        "selection": "free_text"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81429ce7c5ffb9552631"
+  },
+  {
+    "id": "sound.invisible",
+    "domain": "sound",
+    "bundle": "sound",
+    "order": 25,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Vibration invisible.",
+    "sentence": "Vibration [relative quality].",
+    "slots": [
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "invisible",
+        "allowed": [
+          "invisible",
+          "visible",
+          "glowing"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "sound.visibility"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f817cb561c8d0740745d7"
+  },
+  {
+    "id": "sound.travel",
+    "domain": "sound",
+    "bundle": "sound",
+    "order": 26,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Vibration move.",
+    "sentence": "Vibration [verb] [vector].",
+    "slots": [
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "move",
+        "allowed": [
+          "move",
+          "stay"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "vector",
+        "family": "vector",
+        "default": "straight",
+        "allowed": [
+          "straight",
+          "zig_zag",
+          "wave",
+          "random",
+          "custom"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "sound.path",
+      "sound.propagates"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f812388f7ea63964be651"
+  },
+  {
+    "id": "sound.fade",
+    "domain": "sound",
+    "bundle": "sound",
+    "order": 27,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Vibration decrease from time distance things.",
+    "sentence": "Vibration [quality] [pattern] with time, distance and [relative quality] [things].",
+    "slots": [
+      {
+        "key": "quality",
+        "family": "quality",
+        "default": "sonority",
+        "allowed": [
+          "sonority",
+          "speed",
+          "size"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "pattern",
+        "family": "pattern",
+        "default": "decreasing",
+        "allowed": [
+          "consistent",
+          "increasing",
+          "decreasing",
+          "random",
+          "custom"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "relative_quality",
+        "family": "relative quality",
+        "default": "solid",
+        "allowed": [
+          "all",
+          "solid",
+          "liquid",
+          "vaporous",
+          "heavier",
+          "lighter",
+          "bigger",
+          "smaller",
+          "faster",
+          "slower",
+          "mobile",
+          "immobile",
+          "alive",
+          "dead",
+          "visible",
+          "invisible",
+          "glowing",
+          "shaded",
+          "loud",
+          "quiet",
+          "round",
+          "angled"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "things",
+        "allowed": [
+          "things",
+          "ash",
+          "seeds",
+          "books",
+          "snowflakes",
+          "raindrops",
+          "tokens",
+          "meteor",
+          "cloud",
+          "custom"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "sound.fade"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f817f9952dbf4ea0a13de"
+  },
+  {
+    "id": "sound.name",
+    "domain": "sound",
+    "bundle": "sound",
+    "order": 30,
+    "tier": "name",
+    "status": "metadata",
+    "given": "The laws above describe a force called Sound.",
+    "sentence": "The laws above describe a force called [name].",
+    "slots": [
+      {
+        "key": "name",
+        "family": "name",
+        "default": "Sound",
+        "allowed": [
+          "free_text"
+        ],
+        "selection": "free_text"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81bba4cdd48a81e5d095"
+  },
+  {
+    "id": "weather.wind",
+    "domain": "weather",
+    "bundle": "weather",
+    "order": 32,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Wind move random.",
+    "sentence": "Wind [verb] [vector].",
+    "slots": [
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "move",
+        "allowed": [
+          "move",
+          "stay"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "vector",
+        "family": "vector",
+        "default": "random",
+        "allowed": [
+          "straight",
+          "zig_zag",
+          "wave",
+          "random",
+          "custom"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "wind.path",
+      "wind.enabled"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f818cbb76fc8df4740cc0"
+  },
+  {
+    "id": "weather.rain",
+    "domain": "weather",
+    "bundle": "weather",
+    "order": 34,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Cloud fall raindrops.",
+    "sentence": "Cloud [verb] [things].",
+    "slots": [
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "fall",
+        "allowed": [
+          "fall",
+          "rise",
+          "stay"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "things",
+        "family": "things",
+        "default": "raindrops",
+        "allowed": [
+          "raindrops",
+          "snowflakes",
+          "ash",
+          "seeds",
+          "tokens",
+          "meteor",
+          "books",
+          "things"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "cloud.verb",
+      "cloud.things"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81f688bfc8c7ebdd7efd"
+  },
+  {
+    "id": "weather.heat",
+    "domain": "weather",
+    "bundle": "weather",
+    "order": 35,
+    "tier": "relation",
+    "status": "planned",
+    "given": "Sun radiate heat.",
+    "sentence": "Sun [verb] [mover].",
+    "slots": [
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "give",
+        "allowed": [
+          "give",
+          "take"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "mover",
+        "family": "mover",
+        "default": "heat",
+        "allowed": [
+          "heat",
+          "light",
+          "wind",
+          "water",
+          "vibration"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f814d8d66f8e6fe79acc8"
+  },
+  {
+    "id": "weather.name",
+    "domain": "weather",
+    "bundle": "weather",
+    "order": 36,
+    "tier": "name",
+    "status": "metadata",
+    "given": "The laws above describe a force called Weather.",
+    "sentence": "The laws above describe a force called [name].",
+    "slots": [
+      {
+        "key": "name",
+        "family": "name",
+        "default": "Weather",
+        "allowed": [
+          "free_text"
+        ],
+        "selection": "free_text"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81b49938cad2472627b7"
+  },
+  {
+    "id": "time.forward",
+    "domain": "time",
+    "bundle": "time",
+    "order": 37,
+    "tier": "constant",
+    "status": "honoured",
+    "given": "Time move forward.",
+    "sentence": "Time [verb] [relative location].",
+    "slots": [
+      {
+        "key": "verb",
+        "family": "verb",
+        "default": "move",
+        "allowed": [
+          "move",
+          "stay"
+        ],
+        "selection": "single"
+      },
+      {
+        "key": "relative_location",
+        "family": "relative location",
+        "default": "forward",
+        "allowed": [
+          "forward",
+          "behind"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "clock.sign",
+      "clock.running"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81f6ab54c80bb2644ea9"
+  },
+  {
+    "id": "time.consistent",
+    "domain": "time",
+    "bundle": "time",
+    "order": 38,
+    "tier": "constant",
+    "status": "honoured",
+    "given": "Time consistent.",
+    "sentence": "Time [pattern].",
+    "slots": [
+      {
+        "key": "pattern",
+        "family": "pattern",
+        "default": "consistent",
+        "allowed": [
+          "consistent",
+          "increasing",
+          "decreasing",
+          "random",
+          "custom"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "clock.rate_pattern"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f814b8b27e99efa7d194c"
+  },
+  {
+    "id": "time.straight",
+    "domain": "time",
+    "bundle": "time",
+    "order": 39,
+    "tier": "relation",
+    "status": "honoured",
+    "given": "Time straight.",
+    "sentence": "Time [vector].",
+    "slots": [
+      {
+        "key": "vector",
+        "family": "vector",
+        "default": "straight",
+        "allowed": [
+          "straight",
+          "zig_zag",
+          "wave",
+          "random",
+          "custom"
+        ],
+        "selection": "single"
+      }
+    ],
+    "writes": [
+      "clock.path"
+    ],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81f09e4eea3860e7c070"
+  },
+  {
+    "id": "time.name",
+    "domain": "time",
+    "bundle": "time",
+    "order": 42,
+    "tier": "name",
+    "status": "metadata",
+    "given": "The laws above describe a force called Time.",
+    "sentence": "The laws above describe a force called [name].",
+    "slots": [
+      {
+        "key": "name",
+        "family": "name",
+        "default": "Time",
+        "allowed": [
+          "free_text"
+        ],
+        "selection": "free_text"
+      }
+    ],
+    "writes": [],
+    "option_writes": {},
+    "source": "https://app.notion.com/3f2e76ad1e9f81b79d7ef9e222caff49"
+  }
+]

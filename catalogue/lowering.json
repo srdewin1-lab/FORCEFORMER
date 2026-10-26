@@ -1,0 +1,212 @@
+{
+  "format": "world-as-is/lowering/2",
+  "gravity": {
+    "strength": 9.8,
+    "limits": [
+      0,
+      98
+    ]
+  },
+  "body": {
+    "bench_count": 40,
+    "godot_count": 80,
+    "radius": 0.25,
+    "mass": {
+      "heavy": 4,
+      "light": 1
+    },
+    "mass_limits": [
+      0.1,
+      100
+    ],
+    "scale_limits": [
+      0.1,
+      10
+    ],
+    "damp": 0.05,
+    "cap": 200,
+    "initial_scale_range": [
+      0.6,
+      1.4
+    ],
+    "floating_start_height_fraction": [
+      0.27,
+      0.78
+    ]
+  },
+  "operations": {
+    "growth": 1.1,
+    "shrink": 0.9,
+    "speed_rate": 0.1,
+    "velocity_rate": 0.8,
+    "light_rate": 1,
+    "sound_db_rate": 6,
+    "near_metres": 10,
+    "far_metres": 30
+  },
+  "clock": {
+    "day_length_seconds": 1200,
+    "speed": 1,
+    "speed_limits": [
+      0.1,
+      8
+    ],
+    "pattern_rate_range": [
+      0.5,
+      2
+    ]
+  },
+  "light": {
+    "energy": 1,
+    "bright_energy": 1.5,
+    "disc_scale": 1,
+    "larger_disc": 2,
+    "smaller_disc": 0.5,
+    "ambient": 0.18,
+    "night_colour": [
+      0.035,
+      0.06,
+      0.13
+    ],
+    "coal_energy": 0.12,
+    "coal_reach_metres": 2,
+    "persistent_light_cap": 32,
+    "colours": {
+      "white": [
+        1,
+        1,
+        1
+      ],
+      "white_bright": [
+        1,
+        1,
+        1
+      ],
+      "gold": [
+        1,
+        0.84,
+        0.4
+      ],
+      "red": [
+        1,
+        0.3,
+        0.2
+      ],
+      "blue": [
+        0.4,
+        0.6,
+        1
+      ],
+      "green": [
+        0.4,
+        1,
+        0.5
+      ],
+      "violet": [
+        0.7,
+        0.4,
+        1
+      ],
+      "black": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "bench": {
+    "bounce": 0.35,
+    "wet_bounce": 0.15,
+    "dry_friction": 0.97,
+    "wet_friction": 0.985,
+    "wind_air_gain": 40,
+    "wind_ground_gain": 12,
+    "click_heavy_hz": 150,
+    "click_light_hz": 420,
+    "click_decay": 0.18,
+    "strike_threshold": 0.4,
+    "cloud_speed": 10,
+    "wind_reference_pixels_per_metre": 26,
+    "max_visible_rings": 512,
+    "initial_drop_height_fraction": [
+      0.82,
+      0.98
+    ],
+    "cloud_rate": 8,
+    "cloud_count": 5,
+    "cloud_spread": 9,
+    "meteor_glow_start": 8,
+    "meteor_glow_range": 20,
+    "precipitation": {
+      "raindrops": {
+        "mass": 0.6,
+        "scale": 0.35,
+        "damp": 0.05,
+        "launch": 12,
+        "ground_lifetime": 0.35
+      },
+      "ash": {
+        "mass": 0.3,
+        "scale": 0.45,
+        "damp": 0.8,
+        "launch": 2,
+        "ground_lifetime": 6
+      },
+      "snowflakes": {
+        "mass": 0.4,
+        "scale": 0.55,
+        "damp": 0.7,
+        "launch": 3,
+        "ground_lifetime": 6
+      },
+      "seeds": {
+        "mass": 0.2,
+        "scale": 0.4,
+        "damp": 1.8,
+        "launch": 1,
+        "ground_lifetime": 12
+      },
+      "meteor": {
+        "mass": 2,
+        "scale": 0.8,
+        "damp": 0.05,
+        "launch": 18,
+        "ground_lifetime": 12
+      },
+      "tokens": {
+        "mass": 4,
+        "scale": 1,
+        "damp": 0.05,
+        "launch": 10,
+        "ground_lifetime": 12
+      },
+      "books": {
+        "mass": 1,
+        "scale": 1,
+        "damp": 0.05,
+        "launch": 10,
+        "ground_lifetime": 12
+      },
+      "things": {
+        "mass": 1,
+        "scale": 1,
+        "damp": 0.05,
+        "launch": 10,
+        "ground_lifetime": 12
+      }
+    },
+    "rain_window_hours": 3
+  },
+  "world": {
+    "width": 120,
+    "depth": 120,
+    "height": 60,
+    "terrain_max_height": 14,
+    "edge": "horizontal_wrap",
+    "shadows": "away_sun",
+    "wall_sound": "attenuate",
+    "listener_speed": 2,
+    "ceiling": "stop",
+    "listener_edge": "stop"
+  }
+}

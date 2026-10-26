@@ -1,0 +1,60 @@
+[
+  {
+    "law": "sound.fade",
+    "reason": "selective fading and sound speed/size are not implemented",
+    "status": "partial"
+  },
+  {
+    "law": "sound.travel",
+    "slot": "vector",
+    "options": [
+      "wave",
+      "zig_zag",
+      "random"
+    ],
+    "reason": "sound paths beyond straight are not represented",
+    "status": "partial"
+  },
+  {
+    "law": "gravity.rise",
+    "slot": "verb_1",
+    "options": [
+      "fall",
+      "stay",
+      "move",
+      "expand",
+      "contract"
+    ],
+    "reason": "non-rise triggers are not represented",
+    "status": "partial"
+  },
+  {
+    "law": "light.glow",
+    "slot": "colour",
+    "options": [
+      "sky",
+      "last_struck"
+    ],
+    "reason": "dynamic sky/last-struck colour is not represented",
+    "status": "partial"
+  },
+  {
+    "law": "matter.solid",
+    "slot": "meeting",
+    "options": [
+      "mix",
+      "stack"
+    ],
+    "reason": "mix/stack use simplified contacts",
+    "status": "partial"
+  },
+  {
+    "law": "weather.rain",
+    "slot": "things",
+    "options": [
+      "meteor"
+    ],
+    "reason": "meteor glow only; no combustion or heat",
+    "status": "partial"
+  }
+]

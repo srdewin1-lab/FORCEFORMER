@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://shared/fire.gd" id="1_u12ux"]
+
+[node name="Fire" type="Node3D" unique_id=1567791525]
+script = ExtResource("1_u12ux")

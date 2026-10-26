@@ -1,0 +1,63 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://shared/wheel.gd" id="1_e0ure"]
+[ext_resource type="AudioStream" path="res://sounds/strike.wav" id="2_gwn81"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_mv24a"]
+bounce = 0.35
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mgug"]
+albedo_color = Color(0.93333334, 0.9137255, 0.8666667, 1)
+roughness = 0.9
+
+[sub_resource type="SphereMesh" id="SphereMesh_fqxq6"]
+radius = 0.32
+height = 0.64
+radial_segments = 24
+rings = 12
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w0tbm"]
+albedo_color = Color(0.30980393, 0.36078432, 0.39607844, 1)
+roughness = 0.9
+
+[sub_resource type="TorusMesh" id="TorusMesh_jxh84"]
+inner_radius = 0.3
+outer_radius = 0.326
+rings = 32
+ring_segments = 8
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_4unel"]
+radius = 0.32
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4xefp"]
+albedo_color = Color(0.78431374, 0.7372549, 0.5647059, 1)
+roughness = 0.9
+
+[sub_resource type="TorusMesh" id="TorusMesh_bidpn"]
+inner_radius = 0.36
+outer_radius = 0.38
+
+[node name="Wheel" type="RigidBody3D" unique_id=704840394]
+physics_material_override = SubResource("PhysicsMaterial_mv24a")
+gravity_scale = 0.0
+script = ExtResource("1_e0ure")
+
+[node name="Sphere" type="MeshInstance3D" parent="." unique_id=774742166]
+material_override = SubResource("StandardMaterial3D_3mgug")
+mesh = SubResource("SphereMesh_fqxq6")
+
+[node name="RimStripe" type="MeshInstance3D" parent="." unique_id=1006217992]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_w0tbm")
+mesh = SubResource("TorusMesh_jxh84")
+
+[node name="Shape" type="CollisionShape3D" parent="." unique_id=1476315947]
+shape = SubResource("SphereShape3D_4unel")
+
+[node name="Strike" type="AudioStreamPlayer3D" parent="." unique_id=378949842]
+stream = ExtResource("2_gwn81")
+
+[node name="Vibration" type="MeshInstance3D" parent="." unique_id=104584508]
+visible = false
+material_override = SubResource("StandardMaterial3D_4xefp")
+mesh = SubResource("TorusMesh_bidpn")
